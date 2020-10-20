@@ -1,0 +1,86 @@
+Day 1 Reminders
+    Anything common/shared across many places, that retains the same value, should be 'static.'
+    You need to create an instance/object to access a non-static method/variable.
+    A class can't be static, except when within another class.
+    Overloading: same method name but different parameters.
+    'Void' means you don't have to return anything. For non-void, you need to return something.
+
+Visiability Modes (least to most visible)
+    Public
+        Everything is accessible throughout your application, where ever you wish.
+        "Anyone can see this post."
+    Protected
+        Accessible within the saem package and by its child-classes, which may be in the same package or outside the package.
+        "Only friends and friends of friends can see this post."
+    Default
+        Accessible within the package.
+        Don't need to explicitly write.
+        "Only friends can see this post."
+    Private
+        Accessible only within the class.
+        "Only I can see this post."
+
+Class Visiability
+    A class can't be private or protected, only default or public.
+        It can only be private or protected within another class, though this isn't recommended.
+    When public, the class name and file name must be the same.
+        Because of this, there can only be one public class in a file.
+
+note: It's industry standard not to have multiple classes in a file. It's unnecessary complication.
+
+Primary Class
+    Class doesn't need to be tatic to have a static method
+Inner Class
+    Class must be static to have a static method.
+
+ParentClass extends ChildClass;
+    Allows childClass to access all non-private properties of parentClass.
+
+ex. final int x = 10;
+    Value of x is constant and can't be changed.
+    You cannot override a method made 'final'
+
+What is a Constructor?
+    A special method.
+    It has no return type, not even 'void.'
+    It has the same name as the Class.
+    You use a constructor to instantiate (set the value of) an object.
+    Java Compiler creates a constructor for each class by default, until you create a constructor.
+    Constructor Overloading
+        Same name but different parameters
+    It's standard practice to have a public non-parameterized empty, or non-empty, constructor, in all classes.
+    Constructor Chaining
+        Adding to the existing constructor
+        Must be written in the first line of the constructor
+
+Use a Switchcase over If-Else Statement when the values are fixed.
+
+Operators
+    Arithmetic
+        +, -, *, /, %, ++, --
+    Relational / Comparison
+        <, <=, >, >=, ==, !=
+    Logical
+        &&, ||, !
+
+Must know how to CRUD with Arrays:
+    Create
+    Read
+    Update
+    Delete
+
+
+Array Static Methods
+    Arrays.toString(arrayName);
+        Used to print array without the need of a loop.
+    Arrays.sort(arrayName);
+        Sorts array in ascending order.
+    Arrays.binarySearch(arrayName, number);
+        If number is found, it returns a positive number, if not found, it returns a negative number.
+        To use, the array must be sorted in ascending order.
+    int newArrayName[] = Arrays.copyOf(oldArrayName, oldArrayName.length + additional slots);
+        To transfer an array's numbers into a new array.
+    Arrays.fill(arrayName, number);
+        Fills the array with a single number.
+    Arrays.fill(arrayName, number1, number2, number3);
+        Replaces the index interval from number1 to number2 (not including number2) with number3.
