@@ -1,0 +1,141 @@
+Inheritance
+    Takes existing code and existing behaviors of a class and adds it to another class.
+    Written:
+        ChildClass extends ParentClass() {}
+        ChildClass c = new ChildClass();
+        c.childFeatures();
+        c.parentFeatures();
+            ChildClass can only use non-private ParentClass features.
+    Types of Inheritance:
+        Single
+            1 parent, 1 child
+        Hierarchial
+            1 parent, multiple children
+        MultilLevel
+            1 grandparent, 1 parent, 1 child
+        Multiple
+            multiple parents, 1 child
+            Not possible in java because it creates ambiguity (diamond problem)
+        Hybrid
+            1 grandparent, multiple parents, 1 child
+            Combination of Hierarchial and Multiple
+            Not possible in java.
+    In Java, all classes are in a Single level inheritance by default
+        Object (java.lang.objext) > ParentClass > Child Class
+    Chaining
+        super(); points to immediate ParentClass objects.
+            It's added by default and is needed when using parameters.
+            ParentClass = SuperClass
+            ChildClass = SubClass
+Overriding:
+    A ChildClass can override a ParentClass method.
+    Can't override:
+        private, static, or final.
+
+A ChildClass can increase visibility, but it cannot decrease visibility.
+
+Hashcode is code unique to every class object.
+
+A non-static method is at the object level.
+Anything at the object level can be called by another object level method.
+    Static means loaded into memory, which is why an instance isn't needed. It's already in the memory and doesn't need to be instantiated.
+        Static methods can't call non-static methods. They can't 'see' them.
+        Static methods can see static methods.
+        Non-static methods can see static AND non-static methods.
+
+Annotations
+    They are a way of gaining meta information.
+    Written with @
+    @override  
+        Checks that the ChildClass method does override a ParentClass method.
+
+note: The ParentClass is larger than the ChildClass.
+
+Object Casting
+    Only applicable in Inheritance between ParentClass and ChildClass.
+    Types:
+        Implicit: ChildClass object cast to ParentClass
+            ParentClass p = new ChildClass();
+        Explicit  ParentClass object cast to ChildClass
+            ChildClass c = (ChildClass) p;
+
+Java reads everything as a String
+Java writes everything as a String
+
+Wrappers and String API
+    API is a group of classes and methods available
+    Collections Framewors only hold objects and not primitives
+    Wrapper Classes
+        They wrap the properties of a primitive into a class
+            int - Integer
+            byte - Byte
+            long - Long
+            char - Character
+                String and all of these classes are ‘final’ classes
+                They are “immutable”
+                ex.
+                int x = 10;
+                    x primitive of 10 bytes holding the value 10
+                Integer i = 10;
+                    i is an object of the integer class, pointing to the memory address of 10
+        There is a common pool of memory where values are stored.
+            Integer x = 10; links x to 10, which is in the common memory pool
+            Integer y = new Integer(10); links y to 10, which exists in a seperate section of memory
+                x == y; comes out FALSE
+
+note: primitives are faster than objects.
+
+String s = "hello"; vs String s = new String("Hello");
+    An object can be created with no keyword.
+
+Primative:
+    int x = 10;
+Class NUmber:
+    Integer x = 10;
+    Integer y = new (10);
+        x == y;
+            Will come up false because it's comparing memory address rather than value.
+        x.equals(y);
+            Will come up true because it's comparing the values.
+
+Convert a Primative into a Class Mumber:
+    Integer a = x; "where" int x = 10;
+        Autoboxing.
+Convert a Class Number into a Primative:
+    int m = f.intValue();
+Convert a Class Number into another Class Number:
+    Float f = x.floatValue();
+
+note: a static final method is written in all uppercase.
+
+Static Methods:
+    ClassNumber.MAX_VALUE
+        shows the maximum value of the Class
+    ClassNumber.MIN_VALUE
+        shows the minimum value of the Class
+    ClassOne.equals(ClassTwo)
+        checks whether the two values are equal
+    ClassNumber.toString(object);
+        Returns the object as a String object.
+        Similar methods include:
+            ClassNumber.toBinaryString(object);
+            ClassNumber.toHexString(object);
+            ClassNumber.toOctalString(object);
+        Can be overridden to customize to your needs.
+
+Scanner:
+    Import Scanner
+        import.java.util.Scanner;
+    Create instance
+        Scanner scanner = new Scanner(System.in);
+    Use
+        String name = scanner.next();
+            Only gets first word.
+        String name = scanner.nextLine();
+            Gets full line.
+        int age = scanner.nextInt();
+            For getting integers.
+            Don't use this. Use nextLine() instead. It's safer.
+    Convert
+        int age = Integer.parseInt(scanner.nextLine());
+    
