@@ -1,0 +1,147 @@
+Reminders:
+    Class
+        Blueprint of an object
+    Object 
+        Instance of a Class
+        Used to access non-static content of a Class
+    Static things are loaded directly inside the stack (memory)
+        Can access without creating an object
+        Static also means only one copy of the thing
+    Constructor
+        Used to initialize the environment of any Class
+        Invoked when creating an object of a class
+        Can be overloaded
+        ex.
+            ClassName obj = new ConstructorName();
+    Object Casting
+        Implicit
+            Child Class object is assigned to Parent Class object
+            ParentClass p = new Child();
+        Explicit
+            Parent to Child conversion
+            Child c = (Child) p;
+    Wrapper Classes
+        Primitives are wrapped in an object via Wrapper Classes
+            Class has many built-in functions
+            Collections Framework only accepts objects 
+    .toString();
+        Converts thing to a String object
+        Wrappers and String can override .equals() and .toString()
+    Strings are immutable. If you try to modify it, it creates a new memory in the String Pool
+    StringBuffer and StringBuilder
+        mutable Classes
+        No common pool for these objects. Needs 'new' keyword to create.
+
+
+Collections<E>(I) [Updated]
+    List<E>(C)
+            Works like an Array, but dynamic in size
+        Vector<E>(C)
+            Parent is List
+            10 locations at a time. After the first 10 are used, 10 more are added.
+            Contiguous
+            Thread Safe
+        ArrayList<E>(C)
+            Parent is List
+            10 locations at start. After all spaces are used up, 50% more spaces are added.
+                new_mem = oldmem + 50% of oldmem
+            Contiguous
+            Not Thread Safe
+        LinkedList<E>(C)
+            Parents are List and Queue
+            1 node at a time
+                A Node has an address and two parts within, the data and the address of the next node its connected to.
+                1 Node is linked to another by their addressess.
+            Non Contiguous
+            Not Thread Safe
+            List list = new LinkedList();
+                Good way to write. Because of 'List' there's no ambiguity about which parent's methods it's accessing.
+    Queue<E>(I)
+        LinkedList<E>(C)
+        PriorityQueue<E>(C)
+    Set<E>(I)
+            The 3 U's:
+                Unique
+                    No duplicate elements are accepted
+                    Internall checks for duplication using .equals() and hashCode() methods
+                Unindexed
+                    No position for elements
+                Unordered
+                    Doesn't maintain insertion order
+        HashSet<E>(C)
+                Allows only 1 null Value
+                Doesn't maintain insertion order
+            LinkedHashSet<E>(C)
+                Maintains insertion order
+            SortedSet<E>(I)
+                NavigableSet<E>(I)
+                        Navigation / Searching options
+                    TreeSet<E>(C)
+                            Sorts elements in ascending order
+                            No null Values allowwed
+                            Not Thread Safe
+
+Collections is a Framework
+    Framework = collection of Interfaces and Classes
+Collection is an Interface
+    Interface = abstract layer
+
+
+Keys and Values (Collections)
+    Key is unique. Value can be repeated.
+    Methods
+        keySet(); Collection of Keys
+        values(); Collection of Values
+        entrySet(); Collection of pairs
+    Part of Collections Framwork but no Collections Database
+
+Map<K,V>(I)
+    HashMap<K,V>(C)
+        Only 1 key can be null. Multiple values can be null.
+        Doesn't maintain order of insertion.
+        The 3 U's.
+        LinkedHashMap<K,V>(C)
+            Maintains order of insertion.
+    Hashtable<K,V>(C)
+        Neither key nor value can be null.
+        Doesn't maintain order of insertion.
+        Thread Safe.
+        Legacy (backwards compatable)
+    SortedMap<K,V>(I)
+        NavigableMap<K,V>(I)
+            TreeMap<K,V>(C)
+                Key will be maintained in sorted orderKey can't be null. Values can be null.
+
+OOC:
+4. Polymorphism:
+        Static Binding
+            Method and Constructor Overloading
+        Dynamic Binding
+            Occurs between Parent and Child
+5. Abstraction
+        Abstact Data: data with hidden implementation details
+        The first pillar that comes up in development
+        How is it Done?
+            Creating Abstract Classes (Partial Abstraction)
+                Abstract methods must be placed in Abstract Classes.
+                Abstract Classes can't be instatniated because they're incomplete.
+                    Can't use static or final because you can't load or make immutable something incomplete.
+            Creating Interfaces (Pure Form of Abstraction)
+                Interfaces solve diamond problem.
+                    The Implementer decides the body of the Method, not the parents, since it's abstract.
+                All methods within are considered public nad abstract by default
+                A Class can implement an unlimited number of Interfaces (Multiple Inheritance)
+                An Inferface CAN'T implement an interface, though it can extend one.
+Abstract Classes are more limited thant Interfaces 
+    Abstract Classes can't do multiple inheritance
+    Interfaces can extend other Interfaces
+Abstraction with Interface:
+    Interface  
+            contains abstract methods
+        Implementer
+                'implements' interface
+                supplies bodies to abstract methods
+            Main Class
+                makes instance of Implementer to call methods
+
+note: final primitives are uppercase by convention
