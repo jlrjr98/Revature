@@ -1,0 +1,133 @@
+Whenever you manipulate a String, you create a new memory.
+All 9 Classes (8Wrappers and String) override .equals() and .toString().
+
+Regular Expression (RegEx) is used for pattern matching
+    [] = Expression
+    {} = Length
+    ^ = Not
+RegEx Examples:
+    [a-z]{5} - any lowercase word of length 5
+    [0-9A-Z]{4} - any alphanumeric word of length 4 (alphas should be Upper Case)
+    [a-zA-z]{2,6} - any word of min length 2 and max length 6
+    [A-Z]{1,} - min 1 uppercase letter
+    [^0-9] - apart from digits, anything else is accepted
+
+Threads
+    A proccess is something that is running. A thread is a tiny process.
+        The suggestions in the IDE is a thread
+    Sometimes, threads need to communicate with one another (Synchronize) to complete their jobs
+    Parallel Programming
+        Threads run at the same time rather than sequentially
+
+StringBuffer and StringBuilder
+    mutable Classes
+        changes will be affected in the SAME memory
+        must be created with 'new' keyword
+    StringBuffer
+        Thread Safe or Synchronized
+            Can be used in inter-thread communication
+    StringBuilder  
+        Not Thread Safe or Synchronized
+
+Exceptions only occur when the application is running.
+Errors occur during the create of code (compiler).
+
+Exception Handling
+    Exception is a situation where:
+        if the normal values are entered, the application works,
+        and if a value that doesn't match is entered, the application will terminate abnormally.
+    3 Layers
+        Presentation Layer
+            communicates with client or user
+            'Mouth of Application"
+            Where try-catch goes.
+        Business Layer
+            Where user writes logic to handle applications
+            Reads inputs from Presentation Layer
+            Where throws go.
+        Storage or DataBase or Persistence Layer
+    try, catch, finally
+        try
+            Block of code that contains code suspected of causing exception
+        catch
+            The handler of the exception
+            There can be many catch blocks, but they should be written in order, starting with ChildClass.
+        finally
+            An optional block that executes despite exception.
+            Can be used to clear resources.
+            It will execute once for sure.
+    throws
+        Used to throw multiple exceptions at the method level to the calling method.
+        An exception is thrown from Storage to Business, then from Business to Presentation.
+        It is the action of throwing the exception forward.
+    throw
+        Creation of a Custom Exception.
+
+Exception Hierarchy
+    Object
+        Throwable
+            Exceptiion (CHECKED EXCEPTION)
+                SQLException
+                ClassNotFoundException
+                ParseException
+                RuntimeException (UNCHECKED EXCEPTION)
+                    NullPointerException
+                    ArithmeticException
+                    InputMismatchException
+                    IndexOutOfBoundException
+                        StringIndexOutOfBoundException
+                        A. OutOfBoundException
+Checked Exception
+    Compiler forces programmer to handle the exception. Until then, it won't compile successfully.
+Unchecked Exception
+    Compiler won't force programmer to handle the exception.
+
+Collections Framework
+    A Framework gives you a solution to what you're Programming
+    It is dynamic
+    They have their own in-built capactiy and resizes itself based upon what's put inside
+        Unlike an Array
+    Has many built-in, optimized functions to do CRUD operations
+    Collections is a Helper Class that provides methods like:
+        sort
+        binarySort
+Array  
+    Has a fixed Size
+    CRUD operations are difficult
+
+E = type
+I = Interface
+C = Class 
+    Which have the definitions
+
+Collections<E>(I)
+    List<E>(C)
+            Works like an Array, but dynamic in size
+        Vector<E>(C)
+            Parent is List
+            10 locations at a time. After the first 10 are used, 10 more are added.
+            Contiguous
+            Thread Safe
+        ArrayList<E>(C)
+            Parent is List
+            10 locations at start. After all spaces are used up, 50% more spaces are added.
+                new_mem = oldmem + 50% of oldmem
+            Contiguous
+            Not Thread Safe
+        LinkedList<E>(C)
+            Parents are List and Queue
+            1 node at a time
+                A Node has an address and two parts within, the data and the address of the next node its connected to.
+                1 Node is linked to another by their addressess.
+            Non Contiguous
+            Not Thread Safe
+            List list = new LinkedList();
+                Good way to write. Because of 'List' there's no ambiguity about which parent's methods it's accessing.
+    Queue<E>(I)
+        LinkedList<E>(C)
+        PriorityQueue<E>(C)
+    Set<E>(I)
+
+Helper Methods
+    Built-in architectures/operations so you don't have to write them manually
+
