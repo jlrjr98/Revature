@@ -145,3 +145,52 @@ Abstraction with Interface:
                 makes instance of Implementer to call methods
 
 note: final primitives are uppercase by convention
+
+Quiz Review:
+	In the code ...
+
+		public class Question {
+   			public void doThing() {}
+    			public static void main(String[] args) {
+
+	... the doThing() method must be declared static to be used in main();
+
+	Interfaces are NOT a form of inheritance
+	You should NOT catch errors where possible
+	
+	In the code ...
+
+		String a = new String();
+		String b = a;
+		a = "Hello";
+
+	... there are 2 objects.
+
+	Abstract Classes are made to be extended not instantiated.
+	Mapping with annotations requires you to identify the mapped classes in your configuration document.
+	Annotations are used to provide extra info to the compiler.
+	
+	The code ...
+
+	int[] a = new int[0];
+	System.out.println(a[1/0]);
+
+	... throws the ArithmeticException.
+
+	A final Class CAN'T be instantiated.
+	If you remove a method declaration from an Interface after it's been implemented:
+		Code would break whenever an interface reference is used to polymorphicaly 
+		call the method in an instance of an implementing class.
+	An array is NOT a type of Collection
+	
+	The code ...
+
+		int x = 6;
+		System.out.println((x > 4 ? 1 : 2));
+
+	... means that if x is greater than 4, print 1. Otherwise print 2.
+
+	Static means something belongs to the class.
+	
+
+	
