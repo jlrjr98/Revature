@@ -177,7 +177,7 @@ Quiz Review:
 
 	... throws the ArithmeticException.
 
-	A final Class CAN'T be instantiated.
+	A final Class CAN be instantiated.
 	If you remove a method declaration from an Interface after it's been implemented:
 		Code would break whenever an interface reference is used to polymorphicaly 
 		call the method in an instance of an implementing class.
