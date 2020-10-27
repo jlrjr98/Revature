@@ -1,0 +1,129 @@
+(SQL) Structured Query Language is a language for managing data held in a relational database.
+    A Relational DataBase stores data in a structure way, using tables, rows, and columns.
+    
+(RDBMS) Relational DataBase Management System
+        A DataBase Program that executes queries on the data.
+        It may have a visual representation of the date (like a spreadsheet).
+        PostgreSQL is a RDBMS.
+    Normalization: A technique of organizing data used to eliminate redundant data & ensure its logically stored
+    Normalization Rules:
+        First Normal Form (1NF)
+            Table should only have single valued attributes/columns
+            Values stored in a column should be of same domain
+            All the columns in a table have unique names
+            Order in which data is stored doesn't matter
+        Second Normal Form (2NF)
+            Is in 1NF
+            Should not have Partial Dependency
+            Partial Dependency: Where an attribute in a table depends on only part of a primary key
+            ex. Student and Subject identify a row. Teacher only depends on Subject for its value
+        Third Normal Form (3NF)
+            Is in 2NF
+            Doesn't hav Transitive Dependency
+            Transitive Dependency: Where a non-prime attribute depends on another non-prime attribute.
+                ex. Score depends on Exam rather than Student and Subject.
+        ACID Properties: ACID refers to the 4 key properties of a transaction
+            Atomicity
+                All data changes are performed as a single operation, so changes are all or nothing.
+            Consistency
+                Data is in a consistent state when a transaction starts and when it ends.
+            Isolation
+                Intermediate state of a transaction is invisible to other transactions.
+                ex. when transferring funds, the money is in one account or another, but not in both or neither.
+                    There are 3 Read Phenomena when transaction 1 reads data that transaction 2 may have changed:
+                        Dirty Reads:
+                            A transaction is allowed to read data
+                            from a row that has been modified by another running transaction and not 
+                            yet committed.
+                            So, the data might not be accurate, since it might be rolled-back and not 
+                            changed.
+                        Non-repeatable Reads:
+                            During a transaction, a row is retrieved twice, and its contents differ.
+                        Phantom Reads:
+                            In the course of a transaction, new rows are added/removed by another 
+                            transaction to the records being read.
+            Durability
+                After a transaction, changes in data remain and aren't undone.
+
+(DDL) Data Definition Language is used to create structures / tables. 
+    Its statements can be freely mixed with SQL statements, effectively making DDL not a separate language.
+    Statements:
+        CREATE: used to establish a new database, table, index, or stored procedure.
+            ex. CREATE TABLE [table name] ([column definitions]) [table parameters]
+        DROP: used to destroy an existing database, table, index, or view.
+            ex. DROP object_type object_name.
+        DELETE doesn't remove the table itself
+        ALTER: modifies existing object.
+            ex. ALTER object_type object_name parameters.
+            ex. ALTER TABLE sink DROP COLUMN bubbles;
+        TRUNCATE: used to delete all data from a table. It's faster than DELETE.
+            ex. TRUNCATE TABLE table_name;
+
+(DML) Data Manipulation Language is used for adding, deleting, and modifying data in a database.
+    SELECT
+        A part of DQL, except when FROM or WHERE is added to the statement.
+        ex. SELECT ... FROM ... WHERE ...
+        SELECT ... INTO ...
+        INSERT INTO ... VALUES ...
+            ex. INSERT INTO employees (first_name, last_name, fname) VALUES ('John', 'Capita', 'xcapit00')
+        UPDATE ... SET ... WHERE ...
+        DELETE FROM ... WHERE ...
+
+(DQL) Data Query Language performs queries on the data within schema objects.
+    It allows you to search and find data.
+    SELECT
+        ex. SELECT column_name FROM table_name
+            WHERE column_name IN (data)
+    BETWEEN allows ranged checking.
+    Clauses:
+        from, where, group by, having, order by
+    Aggregate Functions
+        max, min, sum, count, avg
+
+Quiz Notes:
+    In the code ...
+
+    public class Animal { }
+    public class Bird extends Dog { }
+    public class Reptile extends Animal { }
+    public class Dinosaur extends Reptile { }
+    public class Dog extends Animal { }
+    public class Eagle extends Bird { }
+    public class Raptor extends Bird { }
+    public class Velociraptor extends Dinosaur { }
+
+    ... Eagle is considered an instance of Animal, Dog, Bird, and Eagle.
+        Animal > Dog > Bird > Eagle
+
+    Inheritance does NOT create a "has-a(n)" relationship between two objects
+    The default type of variable for decimals is double
+    an int is 4 bytes
+    If a, b, and c refer to instances of primitive wrapper classes:
+        a.equals(a) will always return true
+        a.equals(b) returns false if they refer to instances of different classes
+
+    In the code ...
+
+        package com.revature
+    public class Base { 
+        // .... 
+        // lot of code... }
+
+    ... the class can be refferred to from outside of the package by referring to the class as:
+        com.revature.Base or importing com.revature and refferring to the class as Base
+    
+    TreeSet doesn't allow null values
+    List allows duplicate elements
+    Set doesn't allow duplicate elements
+    A Stack is a collection that is based on the last-in-first-out (LIFO) policy.
+    The values to any static String variable are stored in the Heap Area.
+    StringBuilder is faster than StringBuffer
+    The StringBuilder class does NOT extend the String Class
+    The String Pool is:
+         A location in memory where strings referenced as literals in an application are stored.
+    Overloaded methods CAN change return type.
+    A Reserved Word, or Keyword, is a word used by the JVM to represent an instruction
+    The Java Compiler (javac) transforms Java code into instructions usable by the JVM
+    The difference betweeen a primitve and a reference variable is:
+        A primitive variable stores a value,
+        a reference variable stores the memory address of an object
