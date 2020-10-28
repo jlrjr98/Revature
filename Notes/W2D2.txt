@@ -1,0 +1,130 @@
+(TCL) Transaction Control Language
+    Used to manage transactions in the database.
+    Commands:
+        commit
+            Permanently saves a transaction into the database
+            ex. COMMIT;
+        rollback
+            restores the database to the last committed state
+            ex. ROLLBACK TO savepoint_name;
+        savepoint
+            Temporarily saves transaction so you can rollback to that point when needed
+            ex. SAVEPOINT savepoint_name;
+(DCL) Data Control Language
+    Used to configure security access to relational databases.
+    Commands:
+        grant
+            allows specified user to perform specified tasks.
+        revoke
+            removes the user accessibility given by GRANT.
+
+Joins: 
+    INNER JOIN
+        Joins 2 tables by matching the values in 2 columns.
+        It's like the intersection of a Venn Diagram.
+
+        ex. SELECT  column1_of_table1,
+                    column2_of_table1,
+                    column1_of_table2,
+                    column2_of_table2
+            FROM schema.table1
+            INNER JOIN schema.table2
+            ON column2_of_table1 = column2_of_table2;
+
+    LEFT JOIN (LEFT OUTER JOIN)
+        Includes all items in table 1 plus the items in table 2 that match values with table 1
+            Matches the ON column.
+        It's like one full circle of a Venn Diagram.
+
+        ex. SELECT  column1_of_table1,
+                    column2_of_table1,
+                    column1_of_table2,
+                    column2_of_table2
+            FROM schema.table1
+            LEFT JOIN schema.table2
+            ON column2_of_table1 = column2_of_table2; 
+
+        There's another version that doesn't include matching values between tables.
+        It's like one circle of a Venn Daigram, NOT including the intersection.
+
+        ex. SELECT  column1_of_table1,
+                    column2_of_table1,
+                    column1_of_table2,
+                    column2_of_table2
+            FROM schema.table1
+            LEFT JOIN schema.table2
+            ON column2_of_table1 = column2_of_table2
+            WHERE column2_of_table2 IS NULL;
+
+    RIGHT JOIN
+        The same as LEFT JOIN but reversed.
+        For RIGHT INNER JOIN, change which table IS NULL.
+ 
+    FULL OUTER JOIN
+        It's like the full Venn Diagram.
+        
+        ex. SELECT *
+            FROM schema.table1
+            FULL JOIN schema.table2
+            ON column1_of_table1 = column1_of_table2;
+
+    CROSS JOIN
+        If table1 has 'n' columns, and table2 has 'm' columns, the CROSS JOIN table with have 'nxm' columns.
+
+        ex. SELECT *
+            FROM schema.table1
+            CROSS JOIN schema.table2
+
+    NATURAL JOIN
+        Creates an implicit join based on the same column names in the joined tables.
+            Joins two tables based on same attribute name and datatypes.
+            Resulting table will contain all the attributes of both but only one copy of each common column.
+        Can be INNER, LEFT, or RIGHT JOIN. It's INNER JOIN by default.
+
+        ex. SELECT *
+            FROM schema.table1
+            NATURAL JOIN schema.table2
+
+    EQUI JOIN
+        Joins two tables based on primary key / foreign key relationship.
+
+        ex. SELECT *
+            FROM schema.table1
+            JOIN schema.table2
+            ON schema.table1.column1 =schema.table2.column1
+
+        Columns must have common elements.
+
+Primary Key:
+    A column or group of columns used to identify a row uniquely in a table
+Foreign Key:
+    A column or group of columns that reference the Primary Key of another table
+
+Operations:
+    UNION
+        Combines the result sets of 2 or more SELECT statements into a single result set
+        It removes duplicates. UNION ALL includes duplicates.
+    INTERSECT
+        Returns any rows that are available in both result sets.
+    EXCEPT
+        Returns all of first result set except for what is in the second result set.
+Create a Table:
+    CREATE TABLE table_name (
+        column1 datatype(length) column_constraint
+        column2 datatype(length) column_constraint
+        table-constraints
+    );
+Add a Column:
+    ALTER schema.table
+    ADD COLUMN new_column datatype;
+
+Insert an entry into a Column:
+    INSERT INTO schema.table(column1, column2, ...)
+    VALUES (value1, value2, ...);
+    
+Update an entry in a Column:
+    UPDATE schema.table
+    SET new_column = value
+    WHERE column1 = value;
+
+note: schema = any database object
