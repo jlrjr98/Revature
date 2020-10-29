@@ -1,0 +1,118 @@
+JDBC (Java DataBase Connectivity)
+    Laptop(OS)<—Driver Software—>Printer(OS)
+        Driver Software brings on synchronization between laptop and printer
+        Java(OOP)<—JDBC(mysqldriver.jar, etc.)—>SQL(DDL,DML,DQL)
+            JDBC acts as Driver Software on synchronization between Java and SQL.
+            3  compressions in Java: jar, .ear, .war
+    JDBC is a bridge driver which helps Java communicate with SQL
+    Final Product: executable jar file
+        Contains packages and classes.
+
+Steps to Interact with the DataBase using JDBC:
+    1) Load or Register the Driver.
+        This is the vender I am willing to connect with
+    2) Open Connection (url, username, password)
+        DataBase = Server
+        Servers run on a particular url
+        Takes username and password to authenticate and authorize you
+    3) Create Statement
+        3 types of Statements
+            Statement(I)
+                SELECT username FROM login WHERE username = username_value AND password = password_value;
+            PreparedStatement(I) extends Statement(I)
+                Pre-compiled: before values are supplied, it’s compiled. Values are given during runtime.
+                Called SQL Injection
+                SELECT username FROM login WHERE username = ? AND password = ?;
+            CallableStatement(I) extends PreparedStatement(I)
+                Can be used to execute some stored functions and procedures in the DataBase
+                Supported by PL/SQL
+                    Programing Language + SQL = PL/SQL
+                'Not doing this’
+                Like a Method/Function
+                Reusable block of code
+            Procedure = Void Method
+    4) Execute Query
+            public boolean execute();
+                Success or failure. Did it work or not?
+                DDL, PL/SQL
+            public int executeUpdate();
+                “3 rows inserted”
+                DML
+            public ResultSet executeQuery();
+                Returns data / table. Also known as a result set.
+                DQL
+        You can execute any SQL query using any of these execute methods. 
+            But, if you need an appropriate reply from the DataBase to Java, then use appropriate methods for the appropriate sub-languages.
+    5) Process Results
+        Results are typically temporary
+    6) Close Connection
+
+
+Maven
+    Is a build automation tool which manages all the dependencies which are required 
+        for any application via project object module (pom.xml file).
+    ex. 
+        My system
+            myapp1 (created as Maven Project)
+                    dependencies
+                    java 1.8
+                    postgres10.1.jar (a postgres driver)
+                    log4j1.1.jar
+                    servlet3.2.jar (an api)
+                    jsp2.5.jar
+                    junit5.jar
+                Maven Project
+                    Centralized Maven Repo
+                    Downloads dependencies from remote repository and creates a machine
+        Build, and TEST prior to that
+            Build tools executes test case, then generates deployable file (jar, war)
+        client’s machine
+
+artifact id = name of project
+
+App Creaton Process:
+    New Maven Project
+        groupId = com.app
+        artifactId
+        name = artifactId
+    Drop in Pom.xml
+        To update Java Project
+        paste JDBC Driver
+    Right click project > Maven > Update Project
+        This updates Java Project to 1.8
+    Create Package and Class
+        Package = com.app.name
+    Connect Java to DataBase
+        DataBase > Driver Manager > PostgreSQL > edit …
+            For url
+        Steps 1 through 6
+
+
+Never use printStackTrace. It slows down the program.
+use catch (ExceptionName e) and System.out.print(e)
+
+
+Industry Level
+    Starting from project name, it should all be readable, clear, and neat
+        Developer must follow the patterns
+        Makes easier for servicer
+    Code should be splintered off into smaller and smaller 
+    Group id identifies all the packages and subpackages in application
+        Don’t use any predefined ids
+
+Single Ton
+    Design Pattern
+    Single Ton Java Class
+    There is only one instance of this in the entire porject
+        static connection
+        Don’t instantiate a static method.
+
+What is DAO?
+    Data Access Object
+    Contains code written just to interact with database
+    database related logic within
+
+Try with Resources
+    takes off finally block
+    has JVM automatically closes the connection
+    JVM takes care of step 6
