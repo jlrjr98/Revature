@@ -25,7 +25,7 @@ public class PostreSqlConnection {
 		//Info needed to connect
 		String url = "jdbc:postgresql://localhost:5432/postgres";
 		String username = "postgres";
-		String password = "crunkdavis";
+		String password = "postgres";
 		
 		//establish connection with getConnection
 		connection = DriverManager.getConnection(url, username, password);
