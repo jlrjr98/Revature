@@ -1,0 +1,7 @@
+Reminder:
+    Service Layer / Logical Layer / Middle Layer
+        Verifies accuracy of data.
+        Conection to database is costly, so stop invalid inputs before they get to the DAO.
+
+System.out.println(); can be a useful tool in debugging. It can let you know where the problems are.
+    ex. System.out.println("You are in DAO getPlayerId id = " + id);
