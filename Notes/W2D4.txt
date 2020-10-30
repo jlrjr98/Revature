@@ -1,0 +1,14 @@
+Parameterizing Your Credentials
+    It's not safe to hard code in your username and password
+    Solved by setting up a password and user name as Environment Variables on your computer.
+        System.getenv("variable_name")
+
+3 Layer Version of App
+    (User) - Presentation - Service - DAO - (Database)
+    These layers communicate with one another to execute program
+        DAO (Data Access Object)
+            Connects to database, acquires data, and performs the action
+        Service (Logical/Validation layer)
+            Approves/Validates values from presenter to DAO.
+        Presentation
+            Where user inputs values and the program is executed.
