@@ -1,9 +1,6 @@
 package com.player.service.impl;
 
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import com.player.dao.PlayerSearchDAO;
 import com.player.dao.impl.PlayerSearchDAOImpl;
 import com.player.exception.BusinessException;
@@ -19,6 +16,7 @@ public class PlayerSearchServiceImpl implements PlayerSearchService {
 	public Player getPlayerById(int id) throws BusinessException {
 		Player player = null;
 		
+		//checks for validity before sending input
 		if (id > 99 && id < 1000) {
 			
 			//code here for DAO
@@ -43,7 +41,8 @@ public class PlayerSearchServiceImpl implements PlayerSearchService {
 	public List<Player> getPlayersByName(String name) throws BusinessException {
 		List<Player> playersListName = null;		
 		
-		if(name!=null) {
+		//checks for validity before sending input
+		if(name!=null && name.length() > 0 && name.length() < 30) {
 			//code for dao
 			playersListName=searchDAO.getPlayersByName(name);
 		}else {
@@ -58,6 +57,7 @@ public class PlayerSearchServiceImpl implements PlayerSearchService {
 	public List<Player> getPlayersByAge(int age) throws BusinessException {
 		List<Player> playersListAge = null;
 		
+		//checks for validity before sending input
 		if(age < 100 && age > 0) {
 			//code for DAO
 			playersListAge=searchDAO.getPlayersByAge(age);
@@ -73,6 +73,7 @@ public class PlayerSearchServiceImpl implements PlayerSearchService {
 	public Player getPlayerByContactNumber(long contact) throws BusinessException {
 		Player player = null;
 		
+		//checks for validity before sending input
 		if(contact <= 11 && contact > 0) {
 			//code for DAO
 			player = searchDAO.getPlayerByContactNumber(contact);
@@ -88,7 +89,8 @@ public class PlayerSearchServiceImpl implements PlayerSearchService {
 	public List<Player> getPlayersByTeamName(String teamName) throws BusinessException {
 		List<Player> playerListTeamName = null;
 		
-		if (teamName != null) {
+		//checks for validity before sending input
+		if (teamName != null && teamName.length() < 0 && teamName.length() < 30) {
 			//code for DAO
 			playerListTeamName = searchDAO.getPlayersByTeamName(teamName);
 		} else {
@@ -102,6 +104,7 @@ public class PlayerSearchServiceImpl implements PlayerSearchService {
 	public List<Player> getPlayersByGender(String gender) throws BusinessException {
 		List<Player> playerListGender=null;
 		
+		//checks for validity before sending input
 		if(gender!=null && gender.matches("[mMFfoO]{1}")) {
 			//code for DAO
 			playerListGender=searchDAO.getPlayersByGender(gender);
