@@ -1,0 +1,51 @@
+JVM
+    Creates virtual environment that is the same across any Operating System
+        Every OS has its own environment, its own way of thread management, etc.
+        Because of JVM, Java is platform independent
+JDK
+    Development kit, which includes the compiler (javac)
+JRE
+    Runtime environment that creates the virutal environemnt with the JVM's help
+
+Two Memories (Primary and Secondary)
+    The OS allocates a section of memory for you in the main system of the device
+    Primary memory is used for execution purposes
+    Secondary memory, which is larger, takes care of storage
+Once the JVM gets into the system, it divides this memory into 2 parts
+    Heap (Storage Area)
+        Non-static things
+    Stack (Execution Area)
+        The Java Interpreter
+        Static things
+    
+public static void main(String[] args) {}
+    Needs to be 'public' because the JRE is outside of the package
+    Without 'static', the method is never loaded into the memory, so ...
+        Java Interpreter can't access it
+    It's 'void' because the Java Interpreter can't hold a String
+
+There’s a class called Stack
+    push, pop, peak operations
+        ex. Stack<Integer> s1 = new Stack<>();
+            add element with s1.push(integer);
+            s1.peak(); is on the top
+            s1.pop();  takes off top element
+
+Function Interface
+    Also known as (SAM) Single Abstract Method Interface
+    Contains only 1 abstract method
+    Implementer utilizes Lambda
+        ex. SortFunctional s1 = () -> System.out.println()
+            nameOfFunctionalInterface variable_name = (parameters) -> {};
+        Can reuse the same abstract method with different bodies
+            No method name is actually used in Lambda
+        Lambda are only applicable to functional interfaces
+    @FunctionInterface - makes interface into functional interface
+
+Streams:
+    Any collection object can be converted into a stream by .stream();
+        This iterates over every element in the collection (replaces For loop)
+        Utilizes Lambda
+        Provides performance / speed benefits
+    You can place a filter on a filter, or a map on a map
+    Commonly uses in industry

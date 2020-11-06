@@ -1,0 +1,60 @@
+Date Time API
+    SimpleDateFormat
+        ex. SimpleDateFormat sdf = new SimpleDateFormat(symbols);
+            System.out.println(sdf.format(d)); generates String
+        Reading
+            SDF is lenient. It will try to use whatever date is input, even if it's incorrect.
+                sdf.setLenient(false); will take away its leniency.
+            Date d = sdf.parse("12.02.20000");
+                Takes String and parses it into a date object.
+    Symbols
+        yyyy - year in 4 digits
+            yy - last 2 digits of year
+        MMMM - full name of month
+            MMM - shortname of month
+            MM month in 2 digits
+        dd - date of day
+        hh - 12 hour format
+            HH - 24 hour format
+        mm - minutes
+        ss - seconds
+        a - am/pm
+        z/Z - time zone
+        EEEE - filly name of week day
+            EEE short name of week day
+    LocalTime, LocalDate, and LocalDateTime are good for calculations
+        ex. LocalDate ld = LocalDate.now(); is the current date.
+        Calculation
+            ld = ld.plusYears(10); adds 10 years to current date.
+                ld = ld.plusMonths();
+            ld - ld.minusYears(15); removes 15 years from current date.
+            ld.isLeapYear(); checks if current year is a leap year.
+            Perido p = Period.between(variable1, variable2);
+                Gives time in between the variables
+                Period CLass is very useful
+            p.getYears(); to print a Period object
+            ChronoUnit.DAYS.between(variable1, variable2);
+                How many days between the variables
+                Can use MONTHS, YEARS, etc.
+Add Date to Postgres
+    There are datatypes Date and Timestamp
+    preparedStatement.setDate(index, new java.sqlDate(model.getValue().getTime());
+        model.setValue(resultSet.getDate("value"));
+                Passes util date to sql date.
+    Use Timestamp datatype in postgres
+    sql.Date is the child of util.Date.
+        Must instantiate child object to set parent object (object casting)
+
+log4j Log Levels (wherever set, it and all levels above will be activated)
+    Trace
+        For developer when writing code
+    Debug  
+        Also for developer when writing code
+    Info
+        For the user
+    Warning
+        For exceptions
+    Error
+        For errors
+    Fatal
+        Terminates/aborts the app

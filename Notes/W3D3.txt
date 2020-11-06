@@ -1,0 +1,62 @@
+JUnit 5
+    Unit Testing - refers to every individual field an an app
+        ex. in the menu, username and password are units.
+    TDD (Test Driven Development) is a methodology where test case is written
+        Won't be able to build app until all test cases are passed
+    Annotations
+        @Test
+            Turns method into test
+            Doesn't need to be static
+            Start the method's name with "test" by convention
+        @BeforeAll
+            For static methods
+            Before creation of object
+            Contains pre-setup
+        @AfterAll
+            For static methods
+        @BeforeEach
+            Doesn't need to be static
+            Executes before every test case
+        @AfterEach
+            Doesn't need to be static
+            Executes after every test case
+    Mockito
+        It is a mocking framework that mocks the database
+        So JUnit won't make actualy changes to the database
+    JUnit can't test void methods without using Reflection API
+
+Distributed Application
+    An app available on the internet, accessed via http or https protocol
+    Clients > Server > DataBase
+        Client
+            Has Client Side Scripting lang/tools
+            A client can be a device such as a smart phone
+            Javascript (javascript is NOT the same as java)
+        Server
+            Contains Server Side Scripting tools
+            Server is centralized
+            Java JEE
+    The Client makes a request (via http). Server reads request and ...
+        generates appropriate responses (via http). This includes data, ...
+        status codes, status messages, etc.
+    http - HyperText Transfer Protocol
+        A stateless protocol
+        Verbs/Methods
+            C - POST
+                http sends huge data from client to server via browser's payload
+                payload = temp. memory
+            R - GET (default method)
+                Uses url to send date from Client to Server
+                    Data is appended to end of url
+            U - PUT/PATCH
+                PUT: completely modify resource
+                PATCH: partially modify resource
+            D - DELETE
+
+FULL STACK engineer
+    A developer who can work on any layers of software application
+        ex. Client side, Server side, DataBase, testing, maintenance, etc.
+    They are flixible and can adapt to any other technologies
+    FULL STACK JAVA engineer
+        A developer who works on Java related frameworks
+            ex. JEE frameworks, Build Tools, Monolothic, Microservices, etc.
