@@ -1,0 +1,54 @@
+String Formatting
+    format(); method returns the formatted String without the need of a System.out.println();
+    Two Forms:
+        String.format(String format, Object...args)
+        Sring.format(Locale locale, String format, Object...args)
+            Locale represents a specific georgraphical, political, or cultural regoin
+            If a locale isn't specified, Java uses a default
+                Locale.getDefault();
+    This method fills in the symbol in format String with the corresponding object in args
+        The symbols can be used to format the object in multiple ways
+    Format Specifiers (symbols)
+        %n - takes no argument, returns line separator
+        %d - takes integer, returns decimal integer
+        %s - takes any datatype, returns String value
+        %f - takes float value, returns decimal number
+    ex. String str = String.format("%d", 101);
+        System.out.println(str); -----> 101
+
+Math Class
+    Has methods for basic numeric operations (exponents, logs, etc)
+        abs(); returns absolute values
+        addExact(); returns sum of args
+        max(); returns greater of the args
+        random(); reutrns double value between 0.0 and 1.0
+
+Random Class
+    Instance of this calss returns stream of random numbers
+        They are Thread Safe
+    Some find Math.random(); simpler to use
+    ints(long streamSize); returns given streamSize number of random int values
+
+OOP revisited
+    Class and Objects
+        All code should be in a class which can be accessed only with the help of objects
+    Encapsulation
+        Bind together instance variables of a class and their methods
+            Instance variable won't be accessed directly with an object
+            Data and Behavior should be tightly coupled together
+        Private instance variables will be set via Constructor/Setter and retrieved via Getter
+    Inheritance
+        Code reusability
+        Parent and Child Classes
+            Child has access to all properties of Parent, except for Constructors and Private things
+            Parent cannot access properties of Child
+    Polymorphism
+        'A single action performed in different ways'
+        Overloading (Static) and Overriding (dynamic)
+            A method with the same name but different purposes
+    Abstraction
+        Abstract data have implementation details hidden
+            Abstract Classes/Interfaces coupled with an extending/implementing Class
+        Abstract Class has at least one abstract method, which has no body/implementation
+            Can't be instantiated - can't make an object of an Abstract Class
+        It's the ability to list features in a plain,simple way
