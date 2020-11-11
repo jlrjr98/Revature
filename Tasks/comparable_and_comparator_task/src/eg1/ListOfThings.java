@@ -29,13 +29,14 @@ public class ListOfThings implements Comparable<ListOfThings> {
 	}
 
 	//needed for sorting this list
+	//determines custom way a list is sorted.
 	@Override
 	public int compareTo(ListOfThings o) {		
 		
-		if (this.getSize() > o.getSize()) {
+		if (this.getName().charAt(0) > o.getName().charAt(0)) {
 			return 1;
 		}
-		else if (this.getSize() < o.getSize()) {
+		else if (this.getName().charAt(0) < o.getName().charAt(0)) {
 			return -1;
 		}
 		else {

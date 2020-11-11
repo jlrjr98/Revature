@@ -17,13 +17,13 @@ public class ComparatorPractice implements Comparator<Object> {
 		int w = y.compare(x, y);
 		System.out.println(w); //retrns 1 because x is greater than y
 		
-		String str1 = "a";
-		String str2 = "b";
+//		String str1 = "a";
+//		String str2 = "b";
 		
 		//int a = str1.compare(str1, str2); //no Strings
 		
-		int num1 = 1;
-		int num2 = 2;
+//		int num1 = 1;
+//		int num2 = 2;
 		
 		//num1.comare(num1, num2);	//doesn't work with primitives	
 		
@@ -47,16 +47,17 @@ public class ComparatorPractice implements Comparator<Object> {
 		System.out.println(l2);
 		
 		//Implementing of Comparator allows you to choose how a list is sorted
+		//Custom Comparator
 		Comparator<ListOfThings> com = new Comparator<ListOfThings>() {
 			public int compare(ListOfThings l1 , ListOfThings l2) {
-				if (l1.getSize() > l2.getSize()) {
+				if (l1.getName().charAt(0) > l2.getName().charAt(0)) {
 					return 1;
 				} else {
 					return -1;
 				}
 			}
 		};
-
+		//Sort by the first latter of Name
 			Collections.sort(l1, com);
 			Collections.sort(l2, com);
 			

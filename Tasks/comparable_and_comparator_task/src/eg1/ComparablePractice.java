@@ -6,23 +6,7 @@ import java.util.List;
 
 public class ComparablePractice  {
 
-	public static void main(String[] args) {
-	
-		List<Integer> numberList = new ArrayList<>();
-		numberList.add(10);
-		numberList.add(21);
-		numberList.add(5);
-		numberList.add(14);
-		numberList.add(7);
-		
-		List<Integer> numberListTwo = new ArrayList<>();
-		numberListTwo.add(10);
-		numberListTwo.add(21);
-		numberListTwo.add(5);
-		numberListTwo.add(14);
-		numberListTwo.add(7);
-		
-	
+	public static void main(String[] args) {	
 		
 		Integer x = 10;
 		Integer y = 5;
@@ -33,8 +17,8 @@ public class ComparablePractice  {
 		int b = y.compareTo(x);
 		System.out.println(b); //returns -1 because y 
 		
-		int i = 3;
-		int n = 4;
+//		int i = 3;
+//		int n = 4;
 		
 		//i.compareTo(n);	//doesn't work on primitives. Must be objects.
 		
