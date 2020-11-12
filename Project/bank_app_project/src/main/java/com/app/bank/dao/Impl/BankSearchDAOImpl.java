@@ -359,4 +359,29 @@ public class BankSearchDAOImpl implements BankSearchDAO {
 		return account_list;
 	}
 
+	@Override
+	public int getTransferAccountIdByAccountId(int account_id) throws BusinessException {
+		
+		int verify_transfer_account_id = 0;
+		
+		try (Connection connection = BankConnection.getConnection()) {
+			
+			String sql = BankSearchQueries.GET_TRANSFER_ACCOUNT_ID_BY_ACCOUNT_ID;
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, account_id);
+			
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if (resultSet.next()) {
+				verify_transfer_account_id = resultSet.getInt("transfer_account_id");
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			log.debug(e.getMessage());
+			log.error("An INTERNAL ERROR has occurred. Please try again later.\n");
+			throw new BusinessException("Exception in BankSearchDAOImpl.getTransferAccountIdByAccountId. DataBase connection issue.\n");
+		}			
+		
+		return verify_transfer_account_id;
+	}
+
 }

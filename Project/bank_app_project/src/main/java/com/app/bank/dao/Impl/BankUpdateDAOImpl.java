@@ -114,8 +114,8 @@ public class BankUpdateDAOImpl implements BankUpdateDAO {
 			log.debug(e.getMessage());
 			log.error("An INTERNAL ERROR has occurred. Please try again later.\n");
 			throw new BusinessException("Exception in BankUpdateDAOImpl.withdrawFromTransferAccount. DataBase connection issue.\n");
-		}
+		}		
 		
 	}
-
+		
 }

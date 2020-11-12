@@ -27,6 +27,7 @@ public interface BankSearchService {
 	public int verifyAccountId(String user_id, int account_id) throws BusinessException;
 	public int verifyAccountId(int account_id) throws BusinessException;
 	public int verifyTransferAccountId(String user_id, int transfer_account_id) throws BusinessException;
+	public int verifyTransferAccountId(int account_id) throws BusinessException;
 	
 	public String verifyUserId(int account_id) throws BusinessException;
 	public String verifyUserId(String last_name, String user_password) throws BusinessException;

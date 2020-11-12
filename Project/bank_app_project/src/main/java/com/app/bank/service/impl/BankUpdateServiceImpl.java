@@ -69,15 +69,20 @@ public class BankUpdateServiceImpl implements BankUpdateService {
 			if (transfer.floatValue() > 0.00) {															
 				if (bankSearchService.verifyAccountId(user_id, transfer_from_account_id) != 0) {					
 					if (bankSearchService.verifyAccountId(transfer_to_account_id) != 0 && transfer_to_account_id != transfer_from_account_id) {						
-						if (transfer.floatValue() <= bankSearchService.getBalance(transfer_from_account_id).floatValue()) {					
-							bankUpdateDAO.postTransferToAccount(transfer_to_account_id, transfer_from_account_id, transfer);
-							bankUpdateDAO.removePostedTransferFromBalance(transfer_from_account_id, transfer);				
+						if (bankSearchService.verifyTransferAccountId(transfer_to_account_id) == 0) {							
+							if (transfer.floatValue() <= bankSearchService.getBalance(transfer_from_account_id).floatValue()) {														
+								bankUpdateDAO.postTransferToAccount(transfer_to_account_id, transfer_from_account_id, transfer);
+								bankUpdateDAO.removePostedTransferFromBalance(transfer_from_account_id, transfer);				
 									
-							bankInsertService.insertTransactionLog(user_id, transfer_from_account_id, "TRANSFER POST", transfer, transfer_to_account_id);					
+								bankInsertService.insertTransactionLog(user_id, transfer_from_account_id, "TRANSFER POST", transfer, transfer_to_account_id);					
+							} else {
+								log.warn("There are INSUFFICIENT FUNDS to perform this transfer.\n");
+								throw new BusinessException("Exception in BankUpdateServiceImpl.postTransfer. TRANSFER amount invalid.\n");
+							}
 						} else {
-							log.warn("There are INSUFFICIENT FUNDS to perform this transfer.\n");
-							throw new BusinessException("Exception in BankUpdateServiceImpl.postTransfer. TRANSFER amount invalid.\n");
-						}
+							log.warn("ACCOUNT ID already has a pending TRANSFER.\n");
+							throw new BusinessException("Exception in BankUpdateServiceImpl.postTransfer. VerifyTransferAccountId failure.\n");
+						}						
 					} else {
 						log.warn("Entered TRANSFER ACCOUNT ID is INVALID.\n");
 						throw new BusinessException("Exception in BankUpdateServiceImpl.postTransfer. VerifyAccountId failuer.\n");
@@ -95,6 +100,7 @@ public class BankUpdateServiceImpl implements BankUpdateService {
 			throw new BusinessException("Exception in BankUpdateServiceImpl.postTransfer. TRANSFER ACCOUNT ID wrong format.\n");
 		}					
 	}
+
 
 	@Override
 	public void acceptTransfer(int transfer_account_id, String user_id, int into_account_id) throws BusinessException {
@@ -134,10 +140,10 @@ public class BankUpdateServiceImpl implements BankUpdateService {
 		if (transfer.floatValue() > 0) {
 			if (transfer_account_id >= 1000 && transfer_account_id <= 9999) {
 				if (transfer_user_id != null && transfer_user_id.length() == 4) {										
-					depositIntoAccount(transfer, transfer_account_id, transfer_user_id);		
+					bankUpdateDAO.depositIntoAccount(transfer, transfer_account_id);				
 					bankUpdateDAO.withdrawFromTransferAccount(transfer_account_id);
 				
-					bankInsertService.insertTransactionLog(user_id, "TRANSFER REJECTION", transfer, transfer_user_id, transfer_account_id);					
+					bankInsertService.insertTransactionLog(user_id, "TRANSFER REJECTION", transfer, transfer_user_id, transfer_account_id);						
 				} else {
 					log.warn("Sorry. ACCOUNT ID is INVALID.\n");
 					throw new BusinessException("Exception in BankUpdateService.rejectTransfer. TRANSFER USER ID wrong format.\n");

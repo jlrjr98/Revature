@@ -17,6 +17,7 @@ public interface BankSearchDAO {
 	public List<Integer> getAccountIdByUserId(String user_id) throws BusinessException;
 	public int getAccountIdByAccountId(int account_id) throws BusinessException;
 	public int getTransferAccountIdByUserIdAndTransferAccountId(String user_id, int transfer_account_id) throws BusinessException;	
+	public int getTransferAccountIdByAccountId(int account_id) throws BusinessException;
 	
 	public BigDecimal getBalanceByAccountId(int account_id) throws BusinessException;
 	public BigDecimal getTransferFromTransferAccountId(int transfer_account_id) throws BusinessException;

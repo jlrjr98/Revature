@@ -9,6 +9,8 @@ public class BankSearchQueries {
 	public static final String GET_TRANSFER_ACCOUNT_ID_BY_USER_ID_AND_TRANSFER_ACCOUNT_ID = "SELECT transfer_account_id FROM bank.transfer JOIN "
 			+ "bank.account ON bank.transfer.account_id = bank.account.account_id JOIN bank.user ON bank.user.user_id = bank.account.user_id "
 			+ "WHERE bank.account.user_id = ? AND transfer_account_id = ?";
+	public static final String GET_TRANSFER_ACCOUNT_ID_BY_ACCOUNT_ID = "SELECT transfer_account_id FROM bank.transfer WHERE account_id = ?;";
+	
 		
 	public static final String GET_USER_ID_BY_ACCOUNT_ID = "SELECT user_id FROM bank.account WHERE account_id = ?;";	
 	public static final String GET_USER_ID_BY_LAST_NAME_AND_PASSWORD = "SELECT user_id FROM bank.user WHERE last_name = ? AND user_password = ?;";	

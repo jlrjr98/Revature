@@ -14553,3 +14553,1221 @@ Are you a customer or employee?
 |Press (1) for CUSTOMER.
 |Press (2) for EMPLOYEE.
 |Press (3) to EXIT.   11-11-20 Wednesday HST 20:02:50   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:10:16   
+[INFO]   com.app.bank.main.BankAppMain   Sorry. That option is INVALID. Please try again.
+   12-11-20 Thursday HST 04:10:18   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:10:18   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:10:20   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) if you have created an ACCOUNT with us before.
+|Press (2) if you have NOT created an ACCOUNT with us before.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 04:10:24   
+[INFO]   com.app.bank.main.BankAppMain   Enter your FRIST NAME:   12-11-20 Thursday HST 04:10:27   
+[INFO]   com.app.bank.main.BankAppMain   Enter your LAST NAME:   12-11-20 Thursday HST 04:12:36   
+[INFO]   com.app.bank.main.BankAppMain   Create a PASSWORD:   12-11-20 Thursday HST 04:12:37   
+[INFO]   com.app.bank.main.BankAppMain   Enter a starting BALANCE:   12-11-20 Thursday HST 04:12:49   
+[INFO]   com.app.bank.main.BankAppMain   ACCOUNT successfully created! Here is your USER ID: [Dv9q]
+LOGIN to view your details.
+   12-11-20 Thursday HST 04:12:56   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:12:56   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:13:03   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:13:04   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:13:05   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:13:08   
+[INFO]   com.app.bank.main.BankAppMain   User Id = Dv9q, Account Id = 8606, Name = Bruce Banner, Balance = $500.10, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:13:08   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:13:08   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 04:13:19   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to WITHDRAW:   12-11-20 Thursday HST 04:13:24   
+[INFO]   com.app.bank.main.BankAppMain   Withdrawal complete! Here are your updated details:
+   12-11-20 Thursday HST 04:13:29   
+[INFO]   com.app.bank.main.BankAppMain   User Id = Dv9q, Account Id = 8606, Name = Bruce Banner, Balance = $450.10, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:13:29   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:13:29   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a DEPOSIT into:   12-11-20 Thursday HST 04:13:35   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to DEPOSIT:   12-11-20 Thursday HST 04:13:40   
+[INFO]   com.app.bank.main.BankAppMain   Deposit complete! Here are your updated details:
+   12-11-20 Thursday HST 04:13:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = Dv9q, Account Id = 8606, Name = Bruce Banner, Balance = $455.30, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:13:43   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:13:43   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 04:13:50   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 04:14:39   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 04:14:43   
+[INFO]   com.app.bank.main.BankAppMain   Funds successfully TRANSFERRED. Here are your updated details:
+   12-11-20 Thursday HST 04:14:50   
+[INFO]   com.app.bank.main.BankAppMain   User Id = Dv9q, Account Id = 8606, Name = Bruce Banner, Balance = $405.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:14:50   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:14:50   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:14:56   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:14:59   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:15:04   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:15:06   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $45.90, Pending Transfer = $50.30 from Account Id = 8606   12-11-20 Thursday HST 04:15:06   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:15:06   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) to ACCEPT a TRANSFER.
+|Press (2) to REJECT a TRANSFER.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 04:15:14   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to ACCEPT a TRANSFER FROM.
+   12-11-20 Thursday HST 04:15:19   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to deposit TRANSFER INTO.
+   12-11-20 Thursday HST 04:15:26   
+[INFO]   com.app.bank.main.BankAppMain   TRANSFER successfully accepted. Here are your updated details:
+   12-11-20 Thursday HST 04:15:33   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:15:33   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:15:33   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:15:55   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:15:59   
+[INFO]   com.app.bank.main.BankAppMain   Hello Employee! Enter your EMPLOYEE ID:   12-11-20 Thursday HST 04:16:02   
+[INFO]   com.app.bank.main.BankAppMain   Enter your PASSWORD:   12-11-20 Thursday HST 04:16:05   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back, John Rios   12-11-20 Thursday HST 04:16:06   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 04:16:06   
+[INFO]   com.app.bank.main.BankAppMain   Here is a list of all ACCOUNTS:
+   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 3h7U, Account Id = 1111, Name = Joe Doe, Balance = $1311.60, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5ISW, Account Id = 9338, Name = Karmen Tressler, Balance = $638022.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5PWL, Account Id = 3470, Name = Stanford Dowsing, Balance = $305872.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 7kEi, Account Id = 3171, Name = Hanni Chillingsworth, Balance = $679300.89, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 80kH, Account Id = 7873, Name = Garnet Cranmor, Balance = $283401.38, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 8Zhu, Account Id = 5214, Name = Annemarie Tippler, Balance = $395800.45, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C0P7, Account Id = 8421, Name = Jorry Monteith, Balance = $641238.81, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C2FT, Account Id = 5952, Name = Alida Bizzey, Balance = $249487.48, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = Dv9q, Account Id = 8606, Name = Bruce Banner, Balance = $405.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = EQv0, Account Id = 3237, Name = Adiana MacElharge, Balance = $947777.86, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ExUo, Account Id = 8497, Name = Darb Overland, Balance = $728000.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = LOuh, Account Id = 5533, Name = Vlad Ingall, Balance = $722482.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 5646, Name = Saitama Onepunchman, Balance = $206.63, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 2706, Name = Saitama Onepunchman, Balance = $688.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = RHWn, Account Id = 1728, Name = Rory Williams, Balance = $700.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = T4yT, Account Id = 6187, Name = Renata Skocroft, Balance = $292012.53, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = VBfe, Account Id = 1557, Name = Olimpia Dreschler, Balance = $179170.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = YkNY, Account Id = 3028, Name = Bjorn Marfield, Balance = $254333.92, Pending Transfer = $100.00 from Account Id = 2706   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ZvOn, Account Id = 8989, Name = Angelita Booi, Balance = $816607.19, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = d894, Account Id = 8086, Name = Sylvester McCoy, Balance = $70.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = dArc, Account Id = 1534, Name = Juliette DeSouza, Balance = $230112.72, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = eGpQ, Account Id = 2969, Name = Dave Davidson, Balance = $150.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = f2es, Account Id = 9345, Name = Dolores Meron, Balance = $562895.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = nbx3, Account Id = 2823, Name = Curry Wozencroft, Balance = $817551.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = qiLW, Account Id = 3994, Name = Gussi Aspland, Balance = $853573.28, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = sT23, Account Id = 1791, Name = Naruto Uzumaki, Balance = $900.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = xJrl, Account Id = 6893, Name = Conrade Salmon, Balance = $929897.56, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 04:16:09   
+[INFO]   com.app.bank.main.BankAppMain   Here is a LOG of all TRANSACTIONS:
+   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 00:00:00.0] USER VBfe with ACCOUNT 1557 performed WITHDRAWAL of $9.06 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:36:18.0] USER 8Zhu with ACCOUNT 5214 performed DEPOSIT of $2.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:51:23.0] USER dArc with ACCOUNT 1534 performed DEPOSIT of $100.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 12:00:15.0] USER C2FT with ACCOUNT 5952 performed DEPOSIT of $900.04 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:07:23.0] USER ExUo with ACCOUNT 8497 performed TRANSFER POST of $6.99 on USER ZvOn with ACCOUNT 8989   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:08:18.0] USER ZvOn with ACCOUNT 8989 performed TRANSFER ACCEPTANCE of $6.99 on USER ExUo with ACCOUNT 8497   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 10:57:10.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:45:15.0] USER LOuh with ACCOUNT 5533 performed WITHDRAWAL of $20.07 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:53:28.0] USER C2FT with ACCOUNT 5952 performed TRANSFER POST of $60.02 on USER xJrl with ACCOUNT 6893   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:55:06.0] USER xJrl with ACCOUNT 6893 performed TRANSFER ACCEPTANCE of $180.04 on USER C2FT with ACCOUNT 5952   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:02:26.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER POST of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:03:22.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:30:54.0] USER YkNY with ACCOUNT 3028 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:42:06.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:05:53.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:13.0] USER OJyW with ACCOUNT 5646 performed DEPOSIT of $100.90 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:52.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $101.10 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:07:51.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:19:47.0] USER T4yT with ACCOUNT 6187 performed TRANSFER POST of $101.10 on USER 3h7U with ACCOUNT 1111   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:24:34.0] USER 3h7U with ACCOUNT 1111 performed TRANSFER ACCEPTANCE of $101.10 on USER T4yT with ACCOUNT 6187   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:07:46.0] USER f2es with ACCOUNT 9345 performed TRANSFER POST of $101.10 on USER 5ISW with ACCOUNT 9338   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:08:45.0] USER 5ISW with ACCOUNT 9338 performed TRANSFER ACCEPTANCE of $101.10 on USER f2es with ACCOUNT 9345   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:30.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:44.0] USER Dv9q with ACCOUNT 8606 performed DEPOSIT of $5.20 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:14:51.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.30 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:15:33.0] USER A5ir with ACCOUNT 8030 performed TRANSFER ACCEPTANCE of $50.30 on USER Dv9q with ACCOUNT 8606   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 04:16:31   
+[INFO]   com.app.bank.main.BankAppMain   
+Enter the USER ID of the USER REGISTRATION you wish to REJECT:   12-11-20 Thursday HST 04:16:50   
+[INFO]   com.app.bank.main.BankAppMain   USER ACCOUNT successfully DELETED.
+   12-11-20 Thursday HST 04:17:11   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 04:17:11   
+[INFO]   com.app.bank.main.BankAppMain   Here is a list of all ACCOUNTS:
+   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 3h7U, Account Id = 1111, Name = Joe Doe, Balance = $1311.60, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5ISW, Account Id = 9338, Name = Karmen Tressler, Balance = $638022.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5PWL, Account Id = 3470, Name = Stanford Dowsing, Balance = $305872.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 7kEi, Account Id = 3171, Name = Hanni Chillingsworth, Balance = $679300.89, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 80kH, Account Id = 7873, Name = Garnet Cranmor, Balance = $283401.38, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 8Zhu, Account Id = 5214, Name = Annemarie Tippler, Balance = $395800.45, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C0P7, Account Id = 8421, Name = Jorry Monteith, Balance = $641238.81, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C2FT, Account Id = 5952, Name = Alida Bizzey, Balance = $249487.48, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = EQv0, Account Id = 3237, Name = Adiana MacElharge, Balance = $947777.86, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ExUo, Account Id = 8497, Name = Darb Overland, Balance = $728000.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = LOuh, Account Id = 5533, Name = Vlad Ingall, Balance = $722482.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 5646, Name = Saitama Onepunchman, Balance = $206.63, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 2706, Name = Saitama Onepunchman, Balance = $688.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = RHWn, Account Id = 1728, Name = Rory Williams, Balance = $700.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = T4yT, Account Id = 6187, Name = Renata Skocroft, Balance = $292012.53, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = VBfe, Account Id = 1557, Name = Olimpia Dreschler, Balance = $179170.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = YkNY, Account Id = 3028, Name = Bjorn Marfield, Balance = $254333.92, Pending Transfer = $100.00 from Account Id = 2706   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ZvOn, Account Id = 8989, Name = Angelita Booi, Balance = $816607.19, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = d894, Account Id = 8086, Name = Sylvester McCoy, Balance = $70.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = dArc, Account Id = 1534, Name = Juliette DeSouza, Balance = $230112.72, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = eGpQ, Account Id = 2969, Name = Dave Davidson, Balance = $150.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = f2es, Account Id = 9345, Name = Dolores Meron, Balance = $562895.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = nbx3, Account Id = 2823, Name = Curry Wozencroft, Balance = $817551.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = qiLW, Account Id = 3994, Name = Gussi Aspland, Balance = $853573.28, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = sT23, Account Id = 1791, Name = Naruto Uzumaki, Balance = $900.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   User Id = xJrl, Account Id = 6893, Name = Conrade Salmon, Balance = $929897.56, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 04:17:14   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:17:51   
+[INFO]   com.app.bank.main.BankAppMain   Thank you for using the JOHN RIOS BANKING APPLICATION! Goodbye.   12-11-20 Thursday HST 04:17:57   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:19:10   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:19:16   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) if you have created an ACCOUNT with us before.
+|Press (2) if you have NOT created an ACCOUNT with us before.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 04:19:20   
+[INFO]   com.app.bank.main.BankAppMain   Enter your FRIST NAME:   12-11-20 Thursday HST 04:19:24   
+[INFO]   com.app.bank.main.BankAppMain   Enter your LAST NAME:   12-11-20 Thursday HST 04:19:26   
+[INFO]   com.app.bank.main.BankAppMain   Create a PASSWORD:   12-11-20 Thursday HST 04:19:50   
+[INFO]   com.app.bank.main.BankAppMain   Enter a starting BALANCE:   12-11-20 Thursday HST 04:19:54   
+[INFO]   com.app.bank.main.BankAppMain   ACCOUNT successfully created! Here is your USER ID: [HGky]
+LOGIN to view your details.
+   12-11-20 Thursday HST 04:20:01   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:20:01   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:20:07   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:20:08   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:20:09   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:20:11   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $60.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:20:11   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:20:11   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 04:20:19   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to WITHDRAW:   12-11-20 Thursday HST 04:20:25   
+[WARN]   com.app.bank.main.BankAppMain   Entered WITHDRAWAL amount is INVALID.   12-11-20 Thursday HST 04:20:33   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankUpdateServiceImpl.withdrawFromAccount. WITHDRAWAL amount invalid.
+   12-11-20 Thursday HST 04:20:33   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:20:33   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:20:48   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:20:49   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:20:52   
+[WARN]   com.app.bank.dao.Impl.BankSearchDAOImpl   Sorry. USER ID and/or PASSWORD is INVALID.
+   12-11-20 Thursday HST 04:20:56   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankSearchDAOImpl.getAccountByUserIdAndPassword. ACCOUNT LIST size is 0.
+   12-11-20 Thursday HST 04:20:56   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:20:56   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:21:05   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:21:06   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:21:08   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $60.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:21:08   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:21:08   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 04:21:16   
+[WARN]   com.app.bank.main.BankAppMain   INVALID Input. Please try again.   12-11-20 Thursday HST 04:21:18   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:21:18   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 04:21:22   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to WITHDRAW:   12-11-20 Thursday HST 04:21:28   
+[INFO]   com.app.bank.main.BankAppMain   Withdrawal complete! Here are your updated details:
+   12-11-20 Thursday HST 04:21:29   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $50.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:21:29   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:21:29   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a DEPOSIT into:   12-11-20 Thursday HST 04:21:36   
+[WARN]   com.app.bank.main.BankAppMain   INVALID Input. Please try again.   12-11-20 Thursday HST 04:21:40   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:21:40   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a DEPOSIT into:   12-11-20 Thursday HST 04:21:45   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to DEPOSIT:   12-11-20 Thursday HST 04:21:46   
+[INFO]   com.app.bank.main.BankAppMain   Deposit complete! Here are your updated details:
+   12-11-20 Thursday HST 04:21:52   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $151.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:21:52   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:21:52   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 04:22:20   
+[WARN]   com.app.bank.main.BankAppMain   INVALID Input. Please try again.   12-11-20 Thursday HST 04:22:27   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:22:27   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 04:22:48   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 04:22:55   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 04:23:01   
+[INFO]   com.app.bank.main.BankAppMain   Funds successfully TRANSFERRED. Here are your updated details:
+   12-11-20 Thursday HST 04:23:09   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $149.50, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:23:09   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:23:09   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:23:18   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:23:21   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:23:26   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:23:28   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $1.50 from Account Id = 4079   12-11-20 Thursday HST 04:23:28   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:23:28   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) to ACCEPT a TRANSFER.
+|Press (2) to REJECT a TRANSFER.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 04:23:34   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to REJECT a TRANSFER FROM.
+   12-11-20 Thursday HST 04:23:36   
+[DEBUG]   com.app.bank.dao.Impl.BankUpdateDAOImpl   ERROR: duplicate key value violates unique constraint "transactions_pkey"
+  Detail: Key (time_stamp)=(2020-11-12 04:23:42-10) already exists.   12-11-20 Thursday HST 04:23:41   
+[ERROR]   com.app.bank.dao.Impl.BankUpdateDAOImpl   An INTERNAL ERROR has occurred. Please try again later.
+   12-11-20 Thursday HST 04:23:41   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankInsertDAOImpl.insertTransactionLog. DataBase connection issue.
+   12-11-20 Thursday HST 04:23:41   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:23:41   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:38:43   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:38:48   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:38:49   
+[INFO]   com.app.bank.main.BankAppMain   Sorry. That option is INVALID. Please try again.
+   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Sorry. That option is INVALID. Please try again.
+   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Sorry. That option is INVALID. Please try again.
+   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Sorry. That option is INVALID. Please try again.
+   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:38:50   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 04:39:03   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:39:05   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:39:11   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:39:12   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:39:15   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:39:15   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:39:15   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 04:39:32   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 04:40:10   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 04:40:13   
+[WARN]   com.app.bank.main.BankAppMain   There are INSUFFICIENT FUNDS to perform this transfer.
+   12-11-20 Thursday HST 04:40:21   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankUpdateServiceImpl.postTransfer. TRANSFER amount invalid.
+   12-11-20 Thursday HST 04:40:21   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:40:21   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 04:40:30   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 04:40:32   
+[WARN]   com.app.bank.main.BankAppMain   INVALID Input. Please try again.   12-11-20 Thursday HST 04:40:37   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:40:37   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 04:40:40   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 04:40:49   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 04:40:58   
+[INFO]   com.app.bank.main.BankAppMain   Funds successfully TRANSFERRED. Here are your updated details:
+   12-11-20 Thursday HST 04:41:01   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $86.10, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 04:41:01   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:41:01   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 04:41:07   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 04:41:10   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 04:41:16   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 04:41:22   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $151.00, Pending Transfer = $10.10 from Account Id = 8030   12-11-20 Thursday HST 04:41:22   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:41:22   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) to ACCEPT a TRANSFER.
+|Press (2) to REJECT a TRANSFER.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 04:41:29   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to REJECT a TRANSFER FROM.
+   12-11-20 Thursday HST 04:41:32   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 04:41:39   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:01:32   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 05:01:34   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 05:01:35   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 05:01:41   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 05:01:44   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 05:01:44   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:01:44   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 05:05:30   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 05:06:51   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 05:08:45   
+[INFO]   com.app.bank.main.BankAppMain   Funds successfully TRANSFERRED. Here are your updated details:
+   12-11-20 Thursday HST 05:08:51   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $86.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 05:08:51   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:08:51   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 05:08:57   
+[WARN]   com.app.bank.main.BankAppMain   INVALID Input. Please try again.   12-11-20 Thursday HST 05:09:02   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:09:02   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 05:09:06   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 05:09:08   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 05:09:20   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 05:09:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = nbx3, Account Id = 2823, Name = Curry Wozencroft, Balance = $817551.00, Pending Transfer = $10.00 from Account Id = 8030   12-11-20 Thursday HST 05:09:30   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:09:30   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) to ACCEPT a TRANSFER.
+|Press (2) to REJECT a TRANSFER.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 05:09:43   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to REJECT a TRANSFER FROM.
+   12-11-20 Thursday HST 05:09:50   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:10:07   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 05:10:13   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:10:16   
+[INFO]   com.app.bank.main.BankAppMain   Hello Employee! Enter your EMPLOYEE ID:   12-11-20 Thursday HST 05:10:17   
+[INFO]   com.app.bank.main.BankAppMain   Enter your PASSWORD:   12-11-20 Thursday HST 05:10:19   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back, John Rios   12-11-20 Thursday HST 05:10:20   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 05:10:20   
+[INFO]   com.app.bank.main.BankAppMain   Here is a LOG of all TRANSACTIONS:
+   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 00:00:00.0] USER VBfe with ACCOUNT 1557 performed WITHDRAWAL of $9.06 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:36:18.0] USER 8Zhu with ACCOUNT 5214 performed DEPOSIT of $2.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:51:23.0] USER dArc with ACCOUNT 1534 performed DEPOSIT of $100.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 12:00:15.0] USER C2FT with ACCOUNT 5952 performed DEPOSIT of $900.04 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:07:23.0] USER ExUo with ACCOUNT 8497 performed TRANSFER POST of $6.99 on USER ZvOn with ACCOUNT 8989   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:08:18.0] USER ZvOn with ACCOUNT 8989 performed TRANSFER ACCEPTANCE of $6.99 on USER ExUo with ACCOUNT 8497   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 10:57:10.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:45:15.0] USER LOuh with ACCOUNT 5533 performed WITHDRAWAL of $20.07 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:53:28.0] USER C2FT with ACCOUNT 5952 performed TRANSFER POST of $60.02 on USER xJrl with ACCOUNT 6893   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:55:06.0] USER xJrl with ACCOUNT 6893 performed TRANSFER ACCEPTANCE of $180.04 on USER C2FT with ACCOUNT 5952   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:02:26.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER POST of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:03:22.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:30:54.0] USER YkNY with ACCOUNT 3028 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:42:06.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:05:53.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:13.0] USER OJyW with ACCOUNT 5646 performed DEPOSIT of $100.90 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:52.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $101.10 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:07:51.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:19:47.0] USER T4yT with ACCOUNT 6187 performed TRANSFER POST of $101.10 on USER 3h7U with ACCOUNT 1111   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:24:34.0] USER 3h7U with ACCOUNT 1111 performed TRANSFER ACCEPTANCE of $101.10 on USER T4yT with ACCOUNT 6187   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:07:46.0] USER f2es with ACCOUNT 9345 performed TRANSFER POST of $101.10 on USER 5ISW with ACCOUNT 9338   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:08:45.0] USER 5ISW with ACCOUNT 9338 performed TRANSFER ACCEPTANCE of $101.10 on USER f2es with ACCOUNT 9345   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:30.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:44.0] USER Dv9q with ACCOUNT 8606 performed DEPOSIT of $5.20 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:14:51.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.30 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:15:33.0] USER A5ir with ACCOUNT 8030 performed TRANSFER ACCEPTANCE of $50.30 on USER Dv9q with ACCOUNT 8606   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:30.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:52.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $100.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:10.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $1.50 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:42.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $1.50 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:01.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.10 on USER HGky with ACCOUNT 4079   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:37.0] USER A5ir with ACCOUNT 8030 performed DEPOSIT of $10.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:39.0] USER HGky with ACCOUNT 0 performed TRANSFER REJECTION of $10.10 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:08:51.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.00 on USER nbx3 with ACCOUNT 2823   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:10:08.0] USER nbx3 with ACCOUNT 0 performed TRANSFER REJECTION of $10.00 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 05:10:22   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:11:17   
+[INFO]   com.app.bank.main.BankAppMain   Thank you for using the JOHN RIOS BANKING APPLICATION! Goodbye.   12-11-20 Thursday HST 05:11:19   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:15:57   
+[INFO]   com.app.bank.main.BankAppMain   Sorry. That option is INVALID. Please try again.
+   12-11-20 Thursday HST 05:15:59   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:15:59   
+[INFO]   com.app.bank.main.BankAppMain   Hello Employee! Enter your EMPLOYEE ID:   12-11-20 Thursday HST 05:16:00   
+[INFO]   com.app.bank.main.BankAppMain   Enter your PASSWORD:   12-11-20 Thursday HST 05:16:02   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back, John Rios   12-11-20 Thursday HST 05:16:03   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 05:16:03   
+[INFO]   com.app.bank.main.BankAppMain   Here is a LOG of all TRANSACTIONS:
+   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 00:00:00.0] USER VBfe with ACCOUNT 1557 performed WITHDRAWAL of $9.06 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:36:18.0] USER 8Zhu with ACCOUNT 5214 performed DEPOSIT of $2.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:51:23.0] USER dArc with ACCOUNT 1534 performed DEPOSIT of $100.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 12:00:15.0] USER C2FT with ACCOUNT 5952 performed DEPOSIT of $900.04 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:07:23.0] USER ExUo with ACCOUNT 8497 performed TRANSFER POST of $6.99 on USER ZvOn with ACCOUNT 8989   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:08:18.0] USER ZvOn with ACCOUNT 8989 performed TRANSFER ACCEPTANCE of $6.99 on USER ExUo with ACCOUNT 8497   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 10:57:10.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:45:15.0] USER LOuh with ACCOUNT 5533 performed WITHDRAWAL of $20.07 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:53:28.0] USER C2FT with ACCOUNT 5952 performed TRANSFER POST of $60.02 on USER xJrl with ACCOUNT 6893   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:55:06.0] USER xJrl with ACCOUNT 6893 performed TRANSFER ACCEPTANCE of $180.04 on USER C2FT with ACCOUNT 5952   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:02:26.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER POST of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:03:22.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:30:54.0] USER YkNY with ACCOUNT 3028 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:42:06.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:05:53.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:13.0] USER OJyW with ACCOUNT 5646 performed DEPOSIT of $100.90 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:52.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $101.10 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:07:51.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:19:47.0] USER T4yT with ACCOUNT 6187 performed TRANSFER POST of $101.10 on USER 3h7U with ACCOUNT 1111   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:24:34.0] USER 3h7U with ACCOUNT 1111 performed TRANSFER ACCEPTANCE of $101.10 on USER T4yT with ACCOUNT 6187   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:07:46.0] USER f2es with ACCOUNT 9345 performed TRANSFER POST of $101.10 on USER 5ISW with ACCOUNT 9338   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:08:45.0] USER 5ISW with ACCOUNT 9338 performed TRANSFER ACCEPTANCE of $101.10 on USER f2es with ACCOUNT 9345   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:30.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:44.0] USER Dv9q with ACCOUNT 8606 performed DEPOSIT of $5.20 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:14:51.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.30 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:15:33.0] USER A5ir with ACCOUNT 8030 performed TRANSFER ACCEPTANCE of $50.30 on USER Dv9q with ACCOUNT 8606   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:30.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:52.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $100.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:10.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $1.50 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:42.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $1.50 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:01.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.10 on USER HGky with ACCOUNT 4079   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:37.0] USER A5ir with ACCOUNT 8030 performed DEPOSIT of $10.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:39.0] USER HGky with ACCOUNT 0 performed TRANSFER REJECTION of $10.10 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:08:51.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.00 on USER nbx3 with ACCOUNT 2823   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:10:08.0] USER nbx3 with ACCOUNT 0 performed TRANSFER REJECTION of $10.00 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 05:16:05   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:42:25   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 05:42:28   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 05:42:33   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 05:42:38   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 05:42:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 05:42:44   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:42:44   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 05:42:51   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 05:43:01   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 05:43:06   
+[DEBUG]   com.app.bank.dao.Impl.BankSearchDAOImpl   ERROR: column "trainsfer_account_id" does not exist
+  Hint: Perhaps you meant to reference the column "transfer.transfer_account_id".
+  Position: 8   12-11-20 Thursday HST 05:43:12   
+[ERROR]   com.app.bank.dao.Impl.BankSearchDAOImpl   An INTERNAL ERROR has occurred. Please try again later.
+   12-11-20 Thursday HST 05:43:12   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankSearchDAOImpl.getTransferAccountIdByAccountId. DataBase connection issue.
+   12-11-20 Thursday HST 05:43:12   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:43:12   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:45:08   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 05:45:10   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 05:45:12   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 05:45:15   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 05:45:19   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 05:45:19   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:45:19   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 05:45:24   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 05:45:32   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 05:45:37   
+[WARN]   com.app.bank.main.BankAppMain   ACCOUNT ID already has a pending TRANSFER.
+   12-11-20 Thursday HST 05:45:41   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankUpdateServiceImpl.postTransfer. VerifyTransferAccountId failure.
+   12-11-20 Thursday HST 05:45:41   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 05:45:41   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 05:46:05   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:46:09   
+[INFO]   com.app.bank.main.BankAppMain   Hello Employee! Enter your EMPLOYEE ID:   12-11-20 Thursday HST 05:46:13   
+[INFO]   com.app.bank.main.BankAppMain   Enter your PASSWORD:   12-11-20 Thursday HST 05:46:15   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back, John Rios   12-11-20 Thursday HST 05:46:16   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 05:46:16   
+[INFO]   com.app.bank.main.BankAppMain   Here is a LOG of all TRANSACTIONS:
+   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 00:00:00.0] USER VBfe with ACCOUNT 1557 performed WITHDRAWAL of $9.06 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:36:18.0] USER 8Zhu with ACCOUNT 5214 performed DEPOSIT of $2.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:51:23.0] USER dArc with ACCOUNT 1534 performed DEPOSIT of $100.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 12:00:15.0] USER C2FT with ACCOUNT 5952 performed DEPOSIT of $900.04 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:07:23.0] USER ExUo with ACCOUNT 8497 performed TRANSFER POST of $6.99 on USER ZvOn with ACCOUNT 8989   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:08:18.0] USER ZvOn with ACCOUNT 8989 performed TRANSFER ACCEPTANCE of $6.99 on USER ExUo with ACCOUNT 8497   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 10:57:10.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:45:15.0] USER LOuh with ACCOUNT 5533 performed WITHDRAWAL of $20.07 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:53:28.0] USER C2FT with ACCOUNT 5952 performed TRANSFER POST of $60.02 on USER xJrl with ACCOUNT 6893   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:55:06.0] USER xJrl with ACCOUNT 6893 performed TRANSFER ACCEPTANCE of $180.04 on USER C2FT with ACCOUNT 5952   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:02:26.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER POST of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:03:22.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:30:54.0] USER YkNY with ACCOUNT 3028 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:42:06.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:05:53.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:13.0] USER OJyW with ACCOUNT 5646 performed DEPOSIT of $100.90 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:52.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $101.10 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:07:51.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:19:47.0] USER T4yT with ACCOUNT 6187 performed TRANSFER POST of $101.10 on USER 3h7U with ACCOUNT 1111   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:24:34.0] USER 3h7U with ACCOUNT 1111 performed TRANSFER ACCEPTANCE of $101.10 on USER T4yT with ACCOUNT 6187   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:07:46.0] USER f2es with ACCOUNT 9345 performed TRANSFER POST of $101.10 on USER 5ISW with ACCOUNT 9338   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:08:45.0] USER 5ISW with ACCOUNT 9338 performed TRANSFER ACCEPTANCE of $101.10 on USER f2es with ACCOUNT 9345   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:30.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:44.0] USER Dv9q with ACCOUNT 8606 performed DEPOSIT of $5.20 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:14:51.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.30 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:15:33.0] USER A5ir with ACCOUNT 8030 performed TRANSFER ACCEPTANCE of $50.30 on USER Dv9q with ACCOUNT 8606   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:30.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:52.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $100.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:10.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $1.50 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:42.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $1.50 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:01.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.10 on USER HGky with ACCOUNT 4079   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:37.0] USER A5ir with ACCOUNT 8030 performed DEPOSIT of $10.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:39.0] USER HGky with ACCOUNT 0 performed TRANSFER REJECTION of $10.10 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:08:51.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.00 on USER nbx3 with ACCOUNT 2823   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:10:08.0] USER nbx3 with ACCOUNT 0 performed TRANSFER REJECTION of $10.00 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 05:46:18   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 05:47:14   
+[INFO]   com.app.bank.main.BankAppMain   Thank you for using the JOHN RIOS BANKING APPLICATION! Goodbye.   12-11-20 Thursday HST 05:47:19   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 06:03:03   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 06:03:11   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) if you have created an ACCOUNT with us before.
+|Press (2) if you have NOT created an ACCOUNT with us before.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 06:03:15   
+[INFO]   com.app.bank.main.BankAppMain   Enter your FRIST NAME:   12-11-20 Thursday HST 06:03:20   
+[INFO]   com.app.bank.main.BankAppMain   Enter your LAST NAME:   12-11-20 Thursday HST 06:03:23   
+[INFO]   com.app.bank.main.BankAppMain   Create a PASSWORD:   12-11-20 Thursday HST 06:03:25   
+[INFO]   com.app.bank.main.BankAppMain   Enter a starting BALANCE:   12-11-20 Thursday HST 06:03:30   
+[INFO]   com.app.bank.main.BankAppMain   ACCOUNT successfully created! Here is your USER ID: [aPN1]
+LOGIN to view your details.
+   12-11-20 Thursday HST 06:03:36   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 06:03:36   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 06:03:43   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 06:03:45   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 06:03:47   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 06:03:50   
+[INFO]   com.app.bank.main.BankAppMain   User Id = aPN1, Account Id = 2602, Name = Finn Mertens, Balance = $900.50, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:03:50   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:03:50   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 06:03:58   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to WITHDRAW:   12-11-20 Thursday HST 06:04:06   
+[WARN]   com.app.bank.main.BankAppMain   Entered WITHDRAWAL amount is INVALID.   12-11-20 Thursday HST 06:04:21   
+[DEBUG]   com.app.bank.main.BankAppMain   Exception in BankUpdateServiceImpl.withdrawFromAccount. WITHDRAWAL amount invalid.
+   12-11-20 Thursday HST 06:04:21   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:04:21   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 06:04:30   
+[WARN]   com.app.bank.main.BankAppMain   INVALID Input. Please try again.   12-11-20 Thursday HST 06:04:34   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:04:34   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a withdrawal from:   12-11-20 Thursday HST 06:04:40   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to WITHDRAW:   12-11-20 Thursday HST 06:04:41   
+[INFO]   com.app.bank.main.BankAppMain   Withdrawal complete! Here are your updated details:
+   12-11-20 Thursday HST 06:04:44   
+[INFO]   com.app.bank.main.BankAppMain   User Id = aPN1, Account Id = 2602, Name = Finn Mertens, Balance = $800.10, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:04:44   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:04:44   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to make a DEPOSIT into:   12-11-20 Thursday HST 06:04:52   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to DEPOSIT:   12-11-20 Thursday HST 06:04:55   
+[INFO]   com.app.bank.main.BankAppMain   Deposit complete! Here are your updated details:
+   12-11-20 Thursday HST 06:04:58   
+[INFO]   com.app.bank.main.BankAppMain   User Id = aPN1, Account Id = 2602, Name = Finn Mertens, Balance = $1000.60, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:04:58   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:04:58   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds TO:   12-11-20 Thursday HST 06:05:06   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID of the account you wish to TRANSFER funds FROM:   12-11-20 Thursday HST 06:05:12   
+[INFO]   com.app.bank.main.BankAppMain   Enter the amount you wish to TRANSFER:   12-11-20 Thursday HST 06:05:20   
+[INFO]   com.app.bank.main.BankAppMain   Funds successfully TRANSFERRED. Here are your updated details:
+   12-11-20 Thursday HST 06:05:26   
+[INFO]   com.app.bank.main.BankAppMain   User Id = aPN1, Account Id = 2602, Name = Finn Mertens, Balance = $945.50, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:05:26   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:05:26   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 06:05:34   
+[INFO]   com.app.bank.main.BankAppMain   Login:
+Please enter your USER ID   12-11-20 Thursday HST 06:05:35   
+[INFO]   com.app.bank.main.BankAppMain   
+Please enter your PASSWORD   12-11-20 Thursday HST 06:05:40   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back! Here are your details:
+   12-11-20 Thursday HST 06:05:42   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $96.20, Pending Transfer = $55.10 from Account Id = 2602   12-11-20 Thursday HST 06:05:42   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:05:42   
+[INFO]   com.app.bank.main.BankAppMain   |Press (1) to ACCEPT a TRANSFER.
+|Press (2) to REJECT a TRANSFER.
+|Press (3) to RETURN.
+   12-11-20 Thursday HST 06:05:52   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to ACCEPT a TRANSFER FROM.
+   12-11-20 Thursday HST 06:05:57   
+[INFO]   com.app.bank.main.BankAppMain   Enter the ACCOUNT ID you wish to deposit TRANSFER INTO.
+   12-11-20 Thursday HST 06:06:01   
+[INFO]   com.app.bank.main.BankAppMain   TRANSFER successfully accepted. Here are your updated details:
+   12-11-20 Thursday HST 06:06:05   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $151.30, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:05   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to make a WITHDRAWL
+|Press (2) to make a DEPOSIT
+|Press (3) to post a TRANSFER to another account.
+|Press (4) to manage pending TRANSFERS.
+|Press (5) to RETURN.   12-11-20 Thursday HST 06:06:05   
+[INFO]   com.app.bank.main.BankAppMain   Hello Customer! You need an account to proceed.
+|Press (1) to LOGIN and view your existing account(s).
+|Press (2) to CREATE a new account.
+|Press (3) to RETURN to the home menu.   12-11-20 Thursday HST 06:06:17   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 06:06:21   
+[INFO]   com.app.bank.main.BankAppMain   Hello Employee! Enter your EMPLOYEE ID:   12-11-20 Thursday HST 06:06:24   
+[INFO]   com.app.bank.main.BankAppMain   Enter your PASSWORD:   12-11-20 Thursday HST 06:06:26   
+[INFO]   com.app.bank.main.BankAppMain   You have successfully logged in. Welcome Back, John Rios   12-11-20 Thursday HST 06:06:27   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 06:06:27   
+[INFO]   com.app.bank.main.BankAppMain   Here is a list of all ACCOUNTS:
+   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 3h7U, Account Id = 1111, Name = Joe Doe, Balance = $1311.60, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5ISW, Account Id = 9338, Name = Karmen Tressler, Balance = $638022.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5PWL, Account Id = 3470, Name = Stanford Dowsing, Balance = $305872.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 7kEi, Account Id = 3171, Name = Hanni Chillingsworth, Balance = $679300.89, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 80kH, Account Id = 7873, Name = Garnet Cranmor, Balance = $283401.38, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 8Zhu, Account Id = 5214, Name = Annemarie Tippler, Balance = $395800.45, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $151.30, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C0P7, Account Id = 8421, Name = Jorry Monteith, Balance = $641238.81, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C2FT, Account Id = 5952, Name = Alida Bizzey, Balance = $249487.48, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = EQv0, Account Id = 3237, Name = Adiana MacElharge, Balance = $947777.86, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ExUo, Account Id = 8497, Name = Darb Overland, Balance = $728000.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = HGky, Account Id = 4079, Name = Bruce Banner, Balance = $151.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = LOuh, Account Id = 5533, Name = Vlad Ingall, Balance = $722482.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 2706, Name = Saitama Onepunchman, Balance = $688.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 5646, Name = Saitama Onepunchman, Balance = $206.63, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = RHWn, Account Id = 1728, Name = Rory Williams, Balance = $700.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = T4yT, Account Id = 6187, Name = Renata Skocroft, Balance = $292012.53, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = VBfe, Account Id = 1557, Name = Olimpia Dreschler, Balance = $179170.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = YkNY, Account Id = 3028, Name = Bjorn Marfield, Balance = $254333.92, Pending Transfer = $100.00 from Account Id = 2706   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ZvOn, Account Id = 8989, Name = Angelita Booi, Balance = $816607.19, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = aPN1, Account Id = 2602, Name = Finn Mertens, Balance = $945.50, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = d894, Account Id = 8086, Name = Sylvester McCoy, Balance = $70.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = dArc, Account Id = 1534, Name = Juliette DeSouza, Balance = $230112.72, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = eGpQ, Account Id = 2969, Name = Dave Davidson, Balance = $150.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = f2es, Account Id = 9345, Name = Dolores Meron, Balance = $562895.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = nbx3, Account Id = 2823, Name = Curry Wozencroft, Balance = $817551.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = qiLW, Account Id = 3994, Name = Gussi Aspland, Balance = $853573.28, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = sT23, Account Id = 1791, Name = Naruto Uzumaki, Balance = $900.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   User Id = xJrl, Account Id = 6893, Name = Conrade Salmon, Balance = $929897.56, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 06:06:30   
+[INFO]   com.app.bank.main.BankAppMain   Here is a LOG of all TRANSACTIONS:
+   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 00:00:00.0] USER VBfe with ACCOUNT 1557 performed WITHDRAWAL of $9.06 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:36:18.0] USER 8Zhu with ACCOUNT 5214 performed DEPOSIT of $2.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 11:51:23.0] USER dArc with ACCOUNT 1534 performed DEPOSIT of $100.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-08 12:00:15.0] USER C2FT with ACCOUNT 5952 performed DEPOSIT of $900.04 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:07:23.0] USER ExUo with ACCOUNT 8497 performed TRANSFER POST of $6.99 on USER ZvOn with ACCOUNT 8989   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 05:08:18.0] USER ZvOn with ACCOUNT 8989 performed TRANSFER ACCEPTANCE of $6.99 on USER ExUo with ACCOUNT 8497   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-09 10:57:10.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:45:15.0] USER LOuh with ACCOUNT 5533 performed WITHDRAWAL of $20.07 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:53:28.0] USER C2FT with ACCOUNT 5952 performed TRANSFER POST of $60.02 on USER xJrl with ACCOUNT 6893   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-10 09:55:06.0] USER xJrl with ACCOUNT 6893 performed TRANSFER ACCEPTANCE of $180.04 on USER C2FT with ACCOUNT 5952   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:02:26.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER POST of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 06:03:22.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $10.00 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:30:54.0] USER YkNY with ACCOUNT 3028 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 10:42:06.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $100.00 on USER YkNY with ACCOUNT 3028   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:05:53.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:13.0] USER OJyW with ACCOUNT 5646 performed DEPOSIT of $100.90 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:06:52.0] USER OJyW with ACCOUNT 2706 performed TRANSFER POST of $101.10 on USER eGpQ with ACCOUNT 2969   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 17:07:51.0] USER eGpQ with ACCOUNT 2969 performed TRANSFER ACCEPTANCE of $100.00 on USER OJyW with ACCOUNT 2706   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:19:47.0] USER T4yT with ACCOUNT 6187 performed TRANSFER POST of $101.10 on USER 3h7U with ACCOUNT 1111   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 18:24:34.0] USER 3h7U with ACCOUNT 1111 performed TRANSFER ACCEPTANCE of $101.10 on USER T4yT with ACCOUNT 6187   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:07:46.0] USER f2es with ACCOUNT 9345 performed TRANSFER POST of $101.10 on USER 5ISW with ACCOUNT 9338   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-11 19:08:45.0] USER 5ISW with ACCOUNT 9338 performed TRANSFER ACCEPTANCE of $101.10 on USER f2es with ACCOUNT 9345   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:30.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:13:44.0] USER Dv9q with ACCOUNT 8606 performed DEPOSIT of $5.20 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:14:51.0] USER Dv9q with ACCOUNT 8606 performed TRANSFER POST of $50.30 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:15:33.0] USER A5ir with ACCOUNT 8030 performed TRANSFER ACCEPTANCE of $50.30 on USER Dv9q with ACCOUNT 8606   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:30.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $10.00 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:21:52.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $100.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:10.0] USER HGky with ACCOUNT 4079 performed TRANSFER POST of $1.50 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:23:42.0] USER HGky with ACCOUNT 4079 performed DEPOSIT of $1.50 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:01.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.10 on USER HGky with ACCOUNT 4079   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:37.0] USER A5ir with ACCOUNT 8030 performed DEPOSIT of $10.10 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 04:41:39.0] USER HGky with ACCOUNT 0 performed TRANSFER REJECTION of $10.10 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:08:51.0] USER A5ir with ACCOUNT 8030 performed TRANSFER POST of $10.00 on USER nbx3 with ACCOUNT 2823   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 05:10:08.0] USER nbx3 with ACCOUNT 0 performed TRANSFER REJECTION of $10.00 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 06:04:44.0] USER aPN1 with ACCOUNT 2602 performed TRANSFER POST of $100.40 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 06:04:58.0] USER aPN1 with ACCOUNT 2602 performed DEPOSIT of $200.50 on USER 0 with ACCOUNT 0   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 06:05:27.0] USER aPN1 with ACCOUNT 2602 performed TRANSFER POST of $55.10 on USER A5ir with ACCOUNT 8030   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   [2020-11-12 06:06:06.0] USER A5ir with ACCOUNT 8030 performed TRANSFER ACCEPTANCE of $55.10 on USER aPN1 with ACCOUNT 2602   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 06:06:51   
+[INFO]   com.app.bank.main.BankAppMain   
+Enter the USER ID of the USER REGISTRATION you wish to REJECT:   12-11-20 Thursday HST 06:07:13   
+[INFO]   com.app.bank.main.BankAppMain   USER ACCOUNT successfully DELETED.
+   12-11-20 Thursday HST 06:07:39   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 06:07:39   
+[INFO]   com.app.bank.main.BankAppMain   Here is a list of all ACCOUNTS:
+   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 3h7U, Account Id = 1111, Name = Joe Doe, Balance = $1311.60, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5ISW, Account Id = 9338, Name = Karmen Tressler, Balance = $638022.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 5PWL, Account Id = 3470, Name = Stanford Dowsing, Balance = $305872.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 7kEi, Account Id = 3171, Name = Hanni Chillingsworth, Balance = $679300.89, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 80kH, Account Id = 7873, Name = Garnet Cranmor, Balance = $283401.38, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = 8Zhu, Account Id = 5214, Name = Annemarie Tippler, Balance = $395800.45, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = A5ir, Account Id = 8030, Name = Chris O'Neil, Balance = $151.30, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C0P7, Account Id = 8421, Name = Jorry Monteith, Balance = $641238.81, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = C2FT, Account Id = 5952, Name = Alida Bizzey, Balance = $249487.48, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = EQv0, Account Id = 3237, Name = Adiana MacElharge, Balance = $947777.86, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ExUo, Account Id = 8497, Name = Darb Overland, Balance = $728000.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = LOuh, Account Id = 5533, Name = Vlad Ingall, Balance = $722482.91, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 5646, Name = Saitama Onepunchman, Balance = $206.63, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = OJyW, Account Id = 2706, Name = Saitama Onepunchman, Balance = $688.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = RHWn, Account Id = 1728, Name = Rory Williams, Balance = $700.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = T4yT, Account Id = 6187, Name = Renata Skocroft, Balance = $292012.53, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = VBfe, Account Id = 1557, Name = Olimpia Dreschler, Balance = $179170.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = YkNY, Account Id = 3028, Name = Bjorn Marfield, Balance = $254333.92, Pending Transfer = $100.00 from Account Id = 2706   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = ZvOn, Account Id = 8989, Name = Angelita Booi, Balance = $816607.19, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = aPN1, Account Id = 2602, Name = Finn Mertens, Balance = $945.50, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = d894, Account Id = 8086, Name = Sylvester McCoy, Balance = $70.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = dArc, Account Id = 1534, Name = Juliette DeSouza, Balance = $230112.72, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = eGpQ, Account Id = 2969, Name = Dave Davidson, Balance = $150.01, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = f2es, Account Id = 9345, Name = Dolores Meron, Balance = $562895.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = nbx3, Account Id = 2823, Name = Curry Wozencroft, Balance = $817551.00, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = qiLW, Account Id = 3994, Name = Gussi Aspland, Balance = $853573.28, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = sT23, Account Id = 1791, Name = Naruto Uzumaki, Balance = $900.90, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   User Id = xJrl, Account Id = 6893, Name = Conrade Salmon, Balance = $929897.56, Pending Transfer = $0.00 from Account Id = 0   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   
+|Press (1) to VIEW all ACCOUNTS.
+|Press (2) to VIEW all TRANSACTION LOGS.
+|Press (3) to REJECT a USER REGISTRATION.
+|Press (4) to REJECT an ACCOUNT.
+|Press (5) to RETURN.
+   12-11-20 Thursday HST 06:07:43   
+[INFO]   com.app.bank.main.BankAppMain   Welcome to the JOHN RIOS BANKING APPLICATION!
+
+Are you a customer or employee?
+|Press (1) for CUSTOMER.
+|Press (2) for EMPLOYEE.
+|Press (3) to EXIT.   12-11-20 Thursday HST 06:08:07   
+[INFO]   com.app.bank.main.BankAppMain   Thank you for using the JOHN RIOS BANKING APPLICATION! Goodbye.   12-11-20 Thursday HST 06:08:09   

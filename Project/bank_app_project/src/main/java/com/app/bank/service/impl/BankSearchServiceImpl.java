@@ -119,6 +119,21 @@ public class BankSearchServiceImpl implements BankSearchService {
 		}
 		return verify_transfer_account_id;
 	}
+	
+	@Override
+	public int verifyTransferAccountId(int account_id) throws BusinessException {
+		
+		int verify_transfer_account_id = 0;
+		
+		if (account_id >= 1000 && account_id <= 9999) {
+			verify_transfer_account_id = bankSearchDAO.getTransferAccountIdByAccountId(account_id);
+		} else {
+			log.warn("Sorry. Entered ACCOUNT ID is INVALID.\n");
+			throw new BusinessException("Exception in BankSearchServiceImpl.verifyTransferAccountId. ACCOUNT ID wrong format.\n");
+		}
+		
+		return verify_transfer_account_id;
+	}	
 
 	@Override
 	public String verifyUserId(int account_id) throws BusinessException {
@@ -220,5 +235,5 @@ public class BankSearchServiceImpl implements BankSearchService {
 		
 		account_list = bankSearchDAO.getAllAccounts();		
 		return account_list;
-	}	
+	}
 }

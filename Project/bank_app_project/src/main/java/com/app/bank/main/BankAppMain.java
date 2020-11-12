@@ -194,6 +194,8 @@ public class BankAppMain {
 													
 													bankUpdateService.rejectTransfer(user_id, bankSearchService.getTransfer(transfer_account_id), transfer_account_id, bankSearchService.verifyUserId(transfer_account_id));
 													
+													log.info("TRANSFER successfully rejected. Here are your updated details:\n");
+													bankSearchService.getAccount(user_id, user_password).forEach(a -> log.info(a));
 												} catch (NumberFormatException e) {
 													log.warn("INVALID Input. Please try again.");
 												} catch (BusinessException e) {
